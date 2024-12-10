@@ -8,7 +8,7 @@
   --login-background-min-height: calc(100vh - 157.6px) !important;
   --language-icon-color: #ffffff;
   --language-icon-bg-color: #004282;
-  --brand-only-logo-url: url("/logo.png");
+  --brand-only-logo-url: url("/images/logo.png");
   --brand-logo-url: url("/images/brand_logo.png");
   --background-logo-url: url("/images/illustration_one.png");
   --footer-brand-logo-url: url("/images/footer_logo.png");
@@ -93,7 +93,7 @@
   --login-background: #f7f9fd;
   --language-icon-color: #ffffff;
   --language-icon-bg-color: #eb6f2d;
-  --brand-only-logo-url: url("/logo.png");
+  --brand-only-logo-url: url("/images/logo.png");
   --brand-logo-url: url("/images/brand_logo.png");
   --background-logo-url: url("/images/illustration_one.png");
   --footer-brand-logo-url: url("/images/footer_logo.png");
