@@ -108,7 +108,7 @@
     "verify": "Verify",
     "vid_label_text": "Certificate ID",
     "otp_label_text": "OTP",
-    "vid_placeholder": "Please enter your Credential ID",
+    "vid_placeholder": "Please enter your Certificate ID",
     "otp_placeholder": "1234",
     "mobile_number": "Mobile Number",
     "email_address": "Email Address",
@@ -181,7 +181,7 @@
   },
   "tooltips": {
     "vid_info": "Please fill in this field",
-    "otp_info": "Enter your generated Credential ID",
+    "otp_info": "Enter your generated Certificate ID",
     "bio_info": "Enter your generated UIN/VID",
     "pin_info": "Enter your generated UIN/VID",
     "username_info": "Enter your generated UIN/VID"
