@@ -1,0 +1,1422 @@
+{
+  "menuItems": {
+    "item1": {
+      "title": "Início"
+    },
+    "item2": {
+      "title": "Recursos",
+      "subItem1": "Centro",
+      "subItem2": "Dispositivos",
+      "subItem3": "Máquinas",
+      "subItem4": "Mapeamento de Zona do Usuário",
+      "subItem5": "Mapeamento de Centro do Usuário"
+    },
+    "item3": {
+      "title": "Dados Mestres"
+    },
+    "item4": {
+      "title": "Status do Pacote"
+    },
+    "item5": {
+      "title": "Pausar / Retomar RID"
+    },
+    "item6": {
+      "title": "Upload em Massa",
+      "subItem1": "Dados Mestres",
+      "subItem2": "Pacotes"
+    },
+    "item7": {
+      "title": "Gerenciador de Chaves",
+      "subItem2": "Gerar Chave Mestra",
+      "subItem1": "Gerar CSR",
+      "subItem3": "Obter Certificado",
+      "subItem4": "Enviar Certificado",
+      "subItem5": "Enviar Certificado de Outro Domínio"
+    },
+    "item8": {
+      "title": "Recuperar RID Perdido"
+    }
+  },
+  "dashboard": {
+    "welcomeMessage": "Bem-vindo ao portal de Administração do Mosip!"
+  },
+  "center": {
+    "title": "Centros",
+    "center-detail-view": "Visualização Detalhada do Centro",
+    "center-name": "Nome do Centro",
+    "center-id": "ID do Centro",
+    "status": "Status",
+    "created-on": "Criado em",
+    "created-by": "Criado por",
+    "updated-on": "Atualizado em",
+    "updated-by": "Atualizado por",
+    "center-details": "Detalhes do Centro",
+    "registration-center-name": "Nome do Centro de Registro",
+    "registration-center-type": "Tipo do Centro de Registro",
+    "contact-person": "Pessoa de Contato - Opcional",
+    "contact-number": "Número de Contato - Opcional",
+    "location-details": "Detalhes da Localização",
+    "longitude": "Longitude",
+    "latitude": "Latitude",
+    "address1": "Endereço Linha 1",
+    "address2": "Endereço Linha 2 - Opcional",
+    "address3": "Endereço Linha 3 - Opcional",
+    "region": "Região",
+    "province": "Província",
+    "city": "Cidade",
+    "laa": "Zona",
+    "postal-code": "Código Postal",
+    "zone": "Zona Administrativa",
+    "operational-details": "Detalhes Operacionais",
+    "holiday-zone": "Localidade de Feriados",
+    "working-hrs": "Horário de Funcionamento - Opcional",
+    "no-kiosk": "Nº de Quiosques",
+    "per-kiosk-process-time": "Tempo de Processamento por Quiosque (minutos)",
+    "start-time": "Hora de Início",
+    "end-time": "Hora de Término",
+    "lunch-start-time": "Início do Almoço - Opcional",
+    "lunch-end-time": "Fim do Almoço - Opcional",
+    "edit": "Editar",
+    "create": "Criar",
+    "cancel": "Cancelar",
+    "language": "Inglês",
+    "keyboard-tooltip": "Clique para Teclado Virtual (Inglês)",
+    "isActive": "Status",
+    "update": "Atualizar",
+    "workingDays": "Dias de Trabalho",
+    "holidays": "Feriados Excepcionais",
+    "add-button": "Adicionar",
+    "datepicker-placeholder": "Escolha uma data",
+    "devices-tooltip": "O dispositivo inclui Leitor de Impressão Digital, Leitor de Íris, Webcam e Impressora",
+    "selectLanguage": "Selecionar Idioma",
+    "editCommonDetails": "Edite aqui os demais detalhes do centro",
+    "validationMessages": {
+      "name": {
+        "required": "O nome do centro é obrigatório",
+        "max-length": "Comprimento máximo excedido (128)"
+      },
+      "centerTypeCode": {
+        "required": "O tipo do centro é obrigatório"
+      },
+      "contactPerson": {
+        "max-length": "Comprimento máximo excedido (128)"
+      },
+      "contactPhone": {
+        "max-length": "Comprimento máximo excedido (16)"
+      },
+      "longitude": {
+        "required": "Longitude é obrigatória",
+        "max-length": "Comprimento máximo excedido (32)",
+        "validLatLong": "É obrigatório no mínimo 4 dígitos após a vírgula",
+        "validNumber": "Por favor, insira apenas números"
+      },
+      "latitude": {
+        "required": "Latitude é obrigatória",
+        "max-length": "Comprimento máximo excedido (32)",
+        "validLatLong": "É obrigatório no mínimo 4 dígitos após a vírgula",
+        "validNumber": "Por favor, insira apenas números"
+      },
+      "addressLine1": {
+        "required": "Endereço Linha 1 é obrigatório",
+        "max-length": "Comprimento máximo excedido (256)"
+      },
+      "addressLine2": {
+        "max-length": "Comprimento máximo excedido (256)"
+      },
+      "addressLine3": {
+        "max-length": "Comprimento máximo excedido (256)"
+      },
+      "region": {
+        "required": "Região é obrigatória"
+      },
+      "province": {
+        "required": "Província é obrigatória"
+      },
+      "city": {
+        "required": "Cidade é obrigatória"
+      },
+      "laa": {
+        "required": "Zona é obrigatória"
+      },
+      "postalCode": {
+        "required": "Código Postal é obrigatório"
+      },
+      "zone": {
+        "required": "Zona Administrativa é obrigatória"
+      },
+      "holidayZone": {
+        "required": "Localidade de Feriado é obrigatória"
+      },
+      "noKiosk": {
+        "required": "O número de quiosques é obrigatório",
+        "min": "O número mínimo de quiosques é 0",
+        "invalidNoKiosk": "Número de quiosques inválido"
+      },
+      "processingTime": {
+        "required": "O tempo de processamento por quiosque é obrigatório"
+      },
+      "startTime": {
+        "required": "O horário de início do centro é obrigatório"
+      },
+      "endTime": {
+        "required": "O horário de término do centro é obrigatório"
+      },
+      "workingDays": {
+        "required": "Selecione pelo menos um dia"
+      }
+    },
+    "popupMessages": {
+      "create": {
+        "title": "Confirmação",
+        "message": ["Você está prestes a criar um Centro de Registro em ", ". Certifique-se de que todas as informações estão corretas.", "O ID do Centro será gerado após a confirmação"],
+        "yesBtnText": "Confirmar",
+        "noBtnText": "Cancelar",
+        "mandatorySecondaryFields": "Você não preencheu os dados obrigatórios no idioma secundário. Portanto, o Centro de Registro será criado/atualizado apenas no idioma primário. Deseja continuar?"
+      },
+      "edit": {
+        "title": "Confirmação",
+        "message": "Você está prestes a atualizar um Centro de Registro. Certifique-se de que todas as informações estão corretas",
+        "yesBtnText": "Confirmar",
+        "noBtnText": "Cancelar",
+        "mandatorySecondaryFields": "Você não preencheu os dados obrigatórios no idioma secundário. Portanto, o Centro de Registro será atualizado apenas no idioma primário. Deseja continuar?"
+      },
+      "update-success": {
+        "title": "Sucesso",
+        "message": ["Os detalhes do centro foram atualizados com sucesso.\n\nID do Centro: ", "\n\nNome do Centro: "],
+        "btnTxt": "Ok"
+      },
+      "update-error": {
+        "title": "Erro",
+        "message": "Ocorreu um problema ao atualizar o centro. Tente novamente",
+        "btnTxt": "Ok"
+      },
+      "create-success": {
+        "title": "Sucesso",
+        "message": ["O centro foi criado com sucesso com o ID do Centro: ", " e Nome do Centro: "],
+        "btnTxt": "Ok"
+      },
+      "create-error": {
+        "title": "Erro",
+        "message": "Ocorreu um problema ao criar o centro. Tente novamente",
+        "btnTxt": "Ok"
+      },
+      "navigation-popup": {
+        "title": "Confirmação",
+        "message": "Tem certeza de que deseja sair desta página? Todos os dados não salvos serão perdidos.",
+        "yesBtnTxt": "Sair",
+        "noBtnTxt": "Permanecer"
+      },
+      "noData": {
+        "title": "Erro",
+        "message": "Nenhum dado encontrado",
+        "btnTxt": "Ok"
+      },
+      "lunchTimeValidation": {
+        "title": "Erro",
+        "message": "Selecione os horários do centro antes de selecionar o horário de almoço",
+        "btnTxt": "Ok"
+      }
+    }
+  },
+  "singleView": {
+    "errorMessages": [
+      "Nenhum registro encontrado",
+      "Ocorreu um erro técnico"
+    ],
+    "buttonText": "OK",
+    "title": "Erro"
+  },
+  "masterData": {
+    "master-data": "Dados Mestres",
+    "total-no": "Total",
+    "common": "Comum",
+    "device-definition": "Definição de Dispositivo",
+    "machine-definition": "Definição de Máquina",
+    "document-definition": "Definição de Documento",
+    "doc-category-mapping": "Mapeamento de Categoria - Tipo de Documento",
+    "category": "Categoria",
+    "mapped-documents": "Documentos Mapeados",
+    "unmapped-documents": "Documentos Não Mapeados",
+    "masterDataTypes": "Tipos de Dados Mestres",
+    "dynamicField": "Campo Dinâmico",
+    "createDynamicField": "Criar Novo Campo Dinâmico"
+  },
+  "masterdataupload": {
+    "title": "Upload de Dados Mestres"
+  },
+  "devices": {
+    "title": "Dispositivos",
+    "header": "Dispositivo",
+    "name": "Nome do Dispositivo",
+    "serialNumber": "Número de Série",
+    "macAddress": "Endereço MAC",
+    "ipAddress": "Endereço IP",
+    "validity": "Data e Hora de Validade",
+    "isActive": "Status",
+    "zone": "Zona Administrativa",
+    "deviceSpecId": "Nome da Especificação do Dispositivo",
+    "language": "Inglês",
+    "edit": "Editar",
+    "create": "Criar",
+    "cancel": "Cancelar",
+    "status": "Status",
+    "keyboard-tooltip": "Clique para Teclado Virtual (Inglês)",
+    "errorMessages": {
+      "title": "Erro",
+      "message": "Nenhum dado encontrado",
+      "btnTxt": "Ok"
+    },
+    "validationMessages": {
+      "name": {
+        "required": "O nome do dispositivo é obrigatório"
+      },
+      "serialNumber": {
+        "required": "O número de série é obrigatório"
+      },
+      "macAddress": {
+        "required": "O endereço MAC é obrigatório"
+      },
+      "ipAddress": {
+        "required": "O endereço IP é obrigatório"
+      },
+      "validity": {
+        "required": "A validade é obrigatória"
+      },
+      "isActive": {
+        "required": "O status é obrigatório"
+      },
+      "zone": {
+        "required": "A zona administrativa é obrigatória"
+      },
+      "deviceSpecId": {
+        "required": "A especificação do dispositivo é obrigatória"
+      },
+      "regCenterId": {
+        "required": "O nome do centro é obrigatório"
+      }
+    },
+    "popupMessages": {
+      "create": {
+        "title": "Confirmação",
+        "message": ["Você está prestes a criar um Dispositivo de Registro em ", ". Certifique-se de que todas as informações estão corretas. O ID do Dispositivo será gerado após a confirmação"],
+        "yesBtnText": "Confirmar",
+        "noBtnText": "Cancelar",
+        "mandatorySecondaryFields": "Você não preencheu os dados obrigatórios no idioma secundário. O Dispositivo de Registro será criado apenas no idioma primário. Deseja continuar?"
+      },
+      "edit": {
+        "title": "Confirmação",
+        "message": "Você está prestes a atualizar um Dispositivo de Registro. Certifique-se de que todas as informações estão corretas",
+        "yesBtnText": "Confirmar",
+        "noBtnText": "Cancelar",
+        "mandatorySecondaryFields": "Você não preencheu os dados obrigatórios no idioma secundário. O Dispositivo de Registro será criado apenas no idioma primário. Deseja continuar?"
+      },
+      "update-success": {
+        "title": "Sucesso",
+        "message": ["Os detalhes do dispositivo foram atualizados com sucesso.\n ID do Dispositivo: ", " \n Nome do Dispositivo: "],
+        "btnTxt": "Ok"
+      },
+      "update-error": {
+        "title": "Erro",
+        "message": "Ocorreu um problema ao atualizar o dispositivo. Tente novamente",
+        "btnTxt": "Ok"
+      },
+      "create-success": {
+        "title": "Sucesso",
+        "message": ["O dispositivo foi criado com sucesso com o ID do Dispositivo: ", " e Nome do Dispositivo: "],
+        "btnTxt": "Ok"
+      },
+      "create-error": {
+        "title": "Erro",
+        "message": "Ocorreu um problema ao criar o dispositivo. Tente novamente",
+        "btnTxt": "Ok"
+      },
+      "navigation-popup": {
+        "title": "Confirmação",
+        "message": "Tem certeza de que deseja sair desta página? Todos os dados não salvos serão perdidos.",
+        "yesBtnTxt": "Sair",
+        "noBtnTxt": "Permanecer"
+      },
+      "noData": {
+        "title": "Erro",
+        "message": "Nenhum dado encontrado",
+        "btnTxt": "Ok"
+      }
+    }
+  },
+  "machines": {
+    "title": "Máquinas",
+    "header": "Máquina",
+    "name": "Nome da Máquina",
+    "machineSpecId": "ID da Especificação da Máquina",
+    "serialNumber": "Número de Série",
+    "macAddress": "Endereço MAC",
+    "ipAddress": "Endereço IP",
+    "validity": "Data e Hora de Validade",
+    "isActive": "Status",
+    "zone": "Zona Administrativa",
+    "publicKey": "Chave Pública",
+    "signPublicKey": "Chave Pública de Assinatura",
+    "language": "Inglês",
+    "edit": "Editar",
+    "create": "Criar",
+    "cancel": "Cancelar",
+    "update": "Atualizar",
+    "keyboard-tooltip": "Clique para Teclado Virtual (Inglês)",
+    "errorMessages": {
+      "title": "Erro",
+      "message": "Nenhum dado encontrado",
+      "btnTxt": "Ok"
+    },
+    "validationMessages": {
+      "name": {
+        "required": "O nome da máquina é obrigatório"
+      },
+      "serialNumber": {
+        "required": "O número de série é obrigatório"
+      },
+      "macAddress": {
+        "required": "O endereço MAC é obrigatório"
+      },
+      "ipAddress": {
+        "required": "O endereço IP é obrigatório"
+      },
+      "validity": {
+        "required": "A validade é obrigatória"
+      },
+      "isActive": {
+        "required": "O status é obrigatório"
+      },
+      "zone": {
+        "required": "A zona administrativa é obrigatória"
+      },
+      "machineSpecId": {
+        "required": "A especificação da máquina é obrigatória"
+      },
+      "publicKey": {
+        "required": "A chave pública é obrigatória"
+      },
+      "signPublicKey": {
+        "required": "A chave pública de assinatura é obrigatória"
+      }
+    },
+    "popupMessages": {
+      "create": {
+        "title": "Confirmação",
+        "message": ["Você está prestes a criar os detalhes da máquina ", ". Certifique-se de que todas as informações estão corretas. O ID da Máquina será gerado após a confirmação"],
+        "yesBtnText": "Confirmar",
+        "noBtnText": "Cancelar",
+        "mandatorySecondaryFields": "Você não preencheu os dados obrigatórios no idioma secundário. Os detalhes da máquina serão criados apenas no idioma primário. Deseja continuar?"
+      },
+      "edit": {
+        "title": "Confirmação",
+        "message": "Você está prestes a atualizar os detalhes da máquina. Certifique-se de que todas as informações estão corretas",
+        "yesBtnText": "Confirmar",
+        "noBtnText": "Cancelar",
+        "mandatorySecondaryFields": "Você não preencheu os dados obrigatórios no idioma secundário. Os detalhes da máquina serão criados apenas no idioma primário. Deseja continuar?"
+      },
+      "update-success": {
+        "title": "Sucesso",
+        "message": ["Os detalhes da máquina foram atualizados com sucesso. ID da Máquina: ", " e Nome da Máquina: "],
+        "btnTxt": "Ok"
+      },
+      "update-error": {
+        "title": "Erro",
+        "message": "Ocorreu um problema ao atualizar os detalhes da máquina. Tente novamente",
+        "btnTxt": "Ok"
+      },
+      "create-success": {
+        "title": "Sucesso",
+        "message": ["A máquina foi criada com sucesso com o ID da Máquina: ", " e Nome da Máquina: "],
+        "btnTxt": "Ok"
+      },
+      "create-error": {
+        "title": "Erro",
+        "message": "Ocorreu um problema ao criar os detalhes da máquina. Tente novamente",
+        "btnTxt": "Ok"
+      },
+      "navigation-popup": {
+        "title": "Confirmação",
+        "message": "Tem certeza de que deseja sair desta página? Todos os dados não salvos serão perdidos.",
+        "yesBtnTxt": "Sair",
+        "noBtnTxt": "Permanecer"
+      },
+      "noData": {
+        "title": "Erro",
+        "message": "Nenhum dado encontrado",
+        "btnTxt": "Ok"
+      }
+    }
+  },
+  "errorPopup": {
+    "noData": {
+      "title": "Nenhum Registro Encontrado",
+      "message": "Nenhum registro encontrado para a pesquisa solicitada",
+      "btnTxt": "Ok"
+    },
+    "technicalError": {
+      "title": "Erro Técnico",
+      "message": "Ocorreu um erro técnico. Atualize a página para continuar ou tente novamente mais tarde",
+      "btnTxt": "Ok"
+    },
+    "unauthorized": {
+      "title": "Erro de Autorização",
+      "message": "Você não está autorizado a acessar esta página",
+      "btnTxt": "Ok"
+    },
+    "unknown": {
+      "title": "Erro Desconhecido",
+      "message": "Falha ao validar a sessão atual",
+      "btnTxt": "Ok"
+    },
+    "payloadtoolarge": {
+      "title": "Carga da requisição muito grande",
+      "message": "O tamanho da carga excede o limite permitido. Verifique o tamanho da carga.",
+      "btnTxt": "Ok"
+    },
+    "servicedown": {
+      "title": "Serviço Temporariamente Indisponível",
+      "message": "O serviço não está pronto para processar a requisição. Tente novamente mais tarde.",
+      "btnTxt": "Ok"
+    },
+    "offLine": {
+      "title": "Sem internet",
+      "message": "A página não pode ser carregada",
+      "btnTxt": "Ok"
+    }
+  },
+  "validationMessages": {
+    "required": "Preencha os campos ‘Até’ e ‘De’ para filtrar pelo intervalo de datas",
+    "range": "A data ‘Até’ não pode ser anterior à data ‘De’",
+    "invalid": "Selecione um valor válido para a data"
+  },
+  "packet-status": {
+    "header": "Status do Pacote",
+    "input-text": "Digite o ID",
+    "text": "Digite o ID de Registro para verificar o status do pacote",
+    "error": "ID de Registro inválido",
+    "id": "ID de Registro",
+    "status": "Status",
+    "viewMore": "Ver Mais",
+    "viewLess": "Ver Menos",
+    "errorMessages": {
+      "title": "Erro",
+      "message": "RID não encontrado",
+      "btnTxt": "Ok"
+    },
+    "statuscheckFailed": "Falhou",
+    "statuscheckCompleted": "Concluído"
+	
+  },
+  "packet-upload": {
+    "header": "Upload de Pacote",
+    "singleView": {
+      "detailed-view-txt": "Visualização Detalhada",
+      "status-txt": "Status",
+      "uploadedBy-txt": "Enviado por",
+      "count-txt": "Quantidade",
+      "dataAndTime-txt": "Data e Hora",
+      "failureDescription-txt": "Descrição da Falha",
+      "placeHolder1-txt": "Nome da Tabela",
+      "placeHolder2-txt": "Operações"
+    },
+    "createView": {
+      "input-btn-text": "Escolher Arquivo",
+      "input-text1": "Enviar arquivo...",
+      "input-text2": "Envie seu Arquivo",
+      "upload-btn": "ENVIAR",
+      "cancel-btn": "CANCELAR",
+      "center": "Centro",
+      "sourceLabel": "Origem",
+      "processLabel": "Processo",
+      "supervisorStatusLabel": "Status do Supervisor",
+      "popupMessaages": {
+        "popup1": {
+          "uploadConfirm": "Confirmar Upload do Pacote",
+          "message": "O pacote será processado.\n Certifique-se de que todas as informações estão corretas.\n\n\n A transação será iniciada após a confirmação.",
+          "confirmBtnTxt": "CONFIRMAR",
+          "cancelBtnTxt": "Cancelar"
+        },
+        "popup2": {
+          "title": "Falha",
+          "btnTxt": "CONCLUÍDO"
+        },
+        "popup3": {
+          "title": "Sucesso",
+          "message": "Seu arquivo foi enviado com sucesso.\n O upload dos dados está em andamento.\n\n\n ID da Transação :",
+          "btnTxt": "CONCLUÍDO"
+        }
+		
+      },
+      "source":[{"label":"Cliente de Registro","value":"REGISTRATION_CLIENT"}],
+	  "process":[{"label":"Novo","value":"NEW"},{"label":"Atualizar UIN","value":"UPDATE"},{"label":"Perdido","value":"LOST"},{"label":"Correção Biométrica","value":"BIOMETRIC_CORRECTION"}],
+	  "supervisorStatus":[{"label":"Aprovado","value":"APPROVED"},{"label":"Rejeitado","value":"REJECTED"}]
+    }
+  },
+  "actionMessages": {
+    "decommission": {
+      "success-message": ["", " foi descomissionado com sucesso"],
+      "success-title": "Sucesso",
+      "error-message": ["Não é possível descomissionar ", " pois ainda está mapeado com outros recursos.\nRemova o mapeamento dos recursos antes de descomissionar"],
+      "error-title": "Erro",
+      "btnTxt": "Concluído",
+      "yesBtnTxt": "Confirmar",
+      "noBtnTxt": "Cancelar",
+      "confirmation-message": ["Deseja descomissionar ", " ? \n Você não poderá desfazer esta ação após clicar em Confirmar."],
+      "confirmation-title": "Confirmação"
+    },
+    "activate": {
+      "success-message": ["", " foi ativado com sucesso"],
+      "success-title": "Sucesso",
+      "error-message": ["", " não pôde ser ativado"],
+      "error-title": "Erro",
+      "btnTxt": "Concluído",
+      "yesBtnTxt": "Confirmar",
+      "noBtnTxt": "Cancelar",
+      "confirmation-message": ["Deseja ativar ", "? \n Você poderá desativá-lo posteriormente, se desejar. Até lá, ele permanecerá como Ativo"],
+      "confirmation-title": "Confirmação"
+    },
+    "deactivate": {
+      "success-message": ["", " foi desativado com sucesso"],
+      "success-title": "Sucesso",
+      "error-message": ["", " não pôde ser desativado"],
+      "error-title": "Erro",
+      "btnTxt": "Concluído",
+      "yesBtnTxt": "Confirmar",
+      "noBtnTxt": "Cancelar",
+      "confirmation-message": ["Deseja desativar ", " ? \n Você poderá ativá-lo posteriormente, se desejar. Até lá, ele permanecerá como Inativo"],
+      "confirmation-title": "Confirmação"
+    },
+    "resumeprocessingandremovehotlistedtag": {
+      "success-message": ["", " teve o processamento retomado e foi removido da lista de bloqueio"],
+      "success-title": "Sucesso",
+      "error-message": ["", " não pôde ter o processamento retomado nem ser removido da lista de bloqueio"],
+      "error-title": "Erro",
+      "btnTxt": "Concluído",
+      "yesBtnTxt": "Confirmar",
+      "noBtnTxt": "Cancelar",
+      "confirmation-message": ["Deseja executar a ação Retomar Processamento e Remover da Lista de Bloqueio para o RID ", " ? \n"],
+      "confirmation-title": "Confirmação"
+    },
+    "resumefrombeginning": {
+      "success-message": ["", " teve o processamento retomado desde o início"],
+      "success-title": "Sucesso",
+      "error-message": ["", " não pôde ter o processamento retomado desde o início"],
+      "error-title": "Erro",
+      "btnTxt": "Concluído",
+      "yesBtnTxt": "Confirmar",
+      "noBtnTxt": "Cancelar",
+      "confirmation-message": ["Deseja executar a ação Retomar desde o Início para o RID ", " ? \n"],
+      "confirmation-title": "Confirmação"
+    },
+    "resumefrombeginningandremovehotlistedtag": {
+      "success-message": ["", " teve o processamento retomado desde o início e foi removido da lista de bloqueio"],
+      "success-title": "Sucesso",
+      "error-message": ["", " não pôde ter o processamento retomado desde o início nem ser removido da lista de bloqueio"],
+      "error-title": "Erro",
+      "btnTxt": "Concluído",
+      "yesBtnTxt": "Confirmar",
+      "noBtnTxt": "Cancelar",
+      "confirmation-message": ["Deseja executar a ação Retomar desde o Início e Remover da Lista de Bloqueio para o RID ", " ? \n"],
+      "confirmation-title": "Confirmação"
+    },
+    "stopprocessing": {
+      "success-message": ["", " teve o processamento interrompido"],
+      "success-title": "Sucesso",
+      "error-message": ["", " não pôde ter o processamento interrompido"],
+      "error-title": "Erro",
+      "btnTxt": "Concluído",
+      "yesBtnTxt": "Confirmar",
+      "noBtnTxt": "Cancelar",
+      "confirmation-message": ["Deseja executar a ação Interromper Processamento para o RID ", " ? \n"],
+      "confirmation-title": "Confirmação"
+    },
+    "deleteUser": {
+      "success-message": ["", " foi excluído"],
+      "success-title": "Sucesso",
+      "error-message": ["", " não pode ser excluído"],
+      "error-title": "Erro",
+      "btnTxt": "Concluído",
+      "yesBtnTxt": "Confirmar",
+      "noBtnTxt": "Cancelar",
+      "confirmation-message": ["Deseja excluir o usuário ", " ? \n"],
+      "confirmation-title": "Confirmação"
+    }
+  },
+  "detailView": {
+    "detail": "Visualização Detalhada"
+  },
+  "users": {
+    "redirectMessage": "Clique aqui para redirecionar para a lista de usuários do Keycloak",
+    "title": "Nome do Usuário",
+    "users": "Mapeamento de Centro do Usuário",
+    "zoneuser": "Mapeamento de Zona do Usuário"
+  },
+  "bulkUpload": {
+    "operation": "Operação",
+    "operationCtrl": [{"label":"Inserir","value":"Insert"},{"label":"Atualizar","value":"Update"},{"label":"Excluir","value":"Delete"}],
+    "tableName": "Selecionar Nome da Tabela",
+    "chooseFile": "Escolher Arquivo",
+    "uploadFile": "Enviar Seu Arquivo",
+    "upload": "ENVIAR",
+    "cancel": "Cancelar",
+    "tableNames": [{"id":"applicant_valid_document","value":"Documento Válido do Requerente"},{"id":"biometric_attribute","value":"Atributo Biométrico"},{"id":"biometric_type","value":"Tipo Biométrico"},{"id":"blocklisted_words","value":"Palavras Bloqueadas"},{"id":"daysofweek_list","value":"Dias da Semana"},{"id":"device_master","value":"Dispositivo"},{"id":"device_spec","value":"Especificação do Dispositivo"},{"id":"device_type","value":"Tipo de Dispositivo"},{"id":"doc_category","value":"Categoria de Documento"},{"id":"doc_type","value":"Tipo de Documento"},{"id":"dynamic_field","value":"Campo Dinâmico"},{"id":"reg_exceptional_holiday","value":"Feriado Excepcional"},{"id":"gender","value":"Gênero"},{"id":"loc_holiday","value":"Feriado"},{"id":"id_type","value":"Tipo de ID"},{"id":"individual_type","value":"Tipo de Indivíduo"},{"id":"language","value":"Idioma"},{"id":"location","value":"Localização"},{"id":"loc_hierarchy_list","value":"Hierarquia de Localização"},{"id":"machine_master","value":"Máquina"},{"id":"machine_spec","value":"Especificação da Máquina"},{"id":"machine_type","value":"Tipo de Máquina"},{"id":"module_detail","value":"Detalhes do Módulo"},{"id":"reason_category","value":"Categoria do Motivo"},{"id":"reason_list","value":"Lista de Motivos"},{"id":"reg_exceptional_holiday","value":"Feriado Excepcional de Registro"},{"id":"registration_center","value":"Centro de Registro"},{"id":"reg_center_type","value":"Tipo de Centro de Registro"},{"id":"reg_working_nonworking","value":"Dias Úteis/Não Úteis de Registro"},{"id":"template","value":"Modelo"},{"id":"template_file_format","value":"Formato do Arquivo de Modelo"},{"id":"template_type","value":"Tipo de Modelo"},{"id":"title","value":"Título"},{"id":"user_detail","value":"Detalhes do Usuário"},{"id":"valid_document","value":"Documento Válido"},{"id":"zone","value":"Zona"},{"id":"zone_user","value":"Usuário da Zona"}],
+    "popupMessages": {
+      "popup1": {
+        "title": "Confirmar Upload em Massa de Dados Mestres",
+        "message": ["Em massa ", " em ", " será processado.\n Certifique-se de que todas as informações estão corretas.\n\n\n A transação será iniciada após a confirmação."],
+        "yesBtnText": "Confirmar",
+        "noBtnText": "Cancelar"
+      },
+      "popup2": {
+        "title": "Falha",
+        "btnTxt": "CONCLUÍDO"
+      },
+      "popup3": {
+        "title": "Sucesso",
+        "message": "Seu arquivo foi enviado com sucesso.\n O upload dos dados está em andamento.\n\n\n ID da Transação : ",
+        "btnTxt": "CONCLUÍDO"
+      }
+    }
+  },
+  "filters": {
+    "titleTxt": "Adicionar Filtros",
+    "footerButtons": {
+      "resetTxt": "Redefinir",
+      "cancelTxt": "Cancelar",
+      "applyTxt": "Aplicar"
+    }
+  },
+  "isActive": {
+    "Active": "ATIVO",
+    "InActive": "INATIVO"
+  },
+  "lostRID": {
+    "titleTxt": "Recuperar RID Perdido",
+    "subtitleenrollment": "Detalhes de Inscrição",
+    "subtitlelocation": "Localização",
+    "searchbtn": "Pesquisar",
+    "clearbtn": "Limpar"
+  },
+  "generatecsr": {
+    "title": "Gerar CSR",
+    "applicationId": "ID da Aplicação",
+    "referenceId": "ID de Referência",
+    "commonName": "Nome Comum",
+    "organization": "Organização",
+    "organizationUnit": "Unidade Organizacional",
+    "location": "Localização",
+    "state": "Estado",
+    "country": "País",
+    "button": "Gerar"
+  },
+  "generatemasterkey": {
+    "title": "Gerar Chave Mestra",
+    "applicationId": "ID da Aplicação",
+    "referenceId": "ID de Referência",
+    "commonName": "Nome Comum",
+    "organization": "Organização",
+    "organizationUnit": "Unidade Organizacional",
+    "location": "Localização",
+    "state": "Estado",
+    "country": "País",
+    "force": "Forçar",
+    "objectType": "Tipo de Objeto",
+    "button": "Gerar"
+  },
+  "getcertificate": {
+    "title": "Obter Certificado",
+    "applicationId": "ID da Aplicação",
+    "referenceId": "ID de Referência",
+    "button": "Obter Certificado"
+  },
+  "uploadcertificate": {
+    "title": "Enviar Certificado",
+    "applicationId": "ID da Aplicação",
+    "referenceId": "ID de Referência",
+    "chooseFile": "Escolher Arquivo",
+    "uploadYourFile": "Enviar Seu Arquivo",
+    "button": "Gerar"
+  },
+  "uploadotherdomaincertificate": {
+    "title": "Enviar Certificado de Outro Domínio",
+    "applicationId": "ID da Aplicação",
+    "referenceId": "ID de Referência",
+    "chooseFile": "Escolher Arquivo",
+    "uploadYourFile": "Enviar Seu Arquivo",
+    "button": "Gerar"
+  },
+  "genericerror": {
+    "fieldValidation": "Este campo é obrigatório",
+    "fieldNameValidation": " é obrigatório"
+  },
+  "genericbutton": {
+    "save": "Salvar"
+  },
+  "genericmessage": {
+    "successLabel": "Sucesso",
+    "successButton": "OK",
+    "errorLabel": "Erro",
+    "createMessage": "Criado com Sucesso",
+    "updateMessage": "Atualizado com Sucesso",
+    "mappingMessage": "Mapeado com Sucesso"
+  },
+  "headermessage": {
+    "vesion": "Versão da UI Admin",
+    "Zone": "Zona",
+    "Logout": "Sair"
+  },
+  "paginatorIntl": {
+    "itemsPerPageLabel": "Itens por página: ",
+    "of": "de"
+  },
+  "keymanager": {
+    "applicationIds": [{
+		"id": "PRE_REGISTRATION", 
+		"value": "PRE_REGISTRATION 3 anos" 
+	}, {
+		"id": "REGISTRATION_PROCESSOR", 
+		"value": "REGISTRATION_PROCESSOR 3 anos" 
+	}, {
+		"id": "REGISTRATION", 
+		"value": "REGISTRATION 3 anos" 
+	}, {
+		"id": "ID_REPO", 
+		"value": "ID_REPO 3 anos" 
+	}, {
+		"id": "KERNEL",
+		"value": "KERNEL 3 anos" 
+	}, { 
+		"id": "ROOT", 
+		"value": "ROOT 5 anos" 
+	}, {
+		"id": "PMS",
+		"value": "PMS 3 anos" 
+	}, {
+		"id": "ADMIN_SERVICES",
+		"value": "ADMIN_SERVICES 3 anos" 
+	}, { 
+		"id": "RESIDENT", 
+		"value": "RESIDENT 3 anos"
+	}]
+  },
+  
+  "serverError": {
+		"KER-KMS-001": "O certificado não é válido",
+		"KER-KMS-002": "ApplicationId não encontrado na política de chaves",
+		"KER-KMS-003": "Nenhum alias exclusivo encontrado",
+		"KER-KMS-004": "Nenhum algoritmo compatível encontrado",
+		"KER-KMS-005": "Requisição inválida",
+		"KER-KMS-006": "O timestamp deve estar no formato ISO 8601 yyyy-MM-ddTHH:mm:ss.SSSZ",
+		"KER-KMS-007": "Exceção ocorrida na biblioteca criptográfica: ",
+		"KER-KMS-008": "O serviço não conseguiu armazenar o certificado de assinatura",
+		"KER-KMS-009": "Tipo de objeto de resposta inválido",
+		"KER-KMS-010": "Reference Id não suportado para o Application ID",
+		"KER-KMS-011": "Chave raiz indisponível para assinatura",
+		"KER-KMS-012": "O processo de geração de chave não foi concluído",
+		"KER-KMS-013": "Erro ao analisar o certificado",
+		"KER-KMS-014": "A chave do certificado não corresponde à chave armazenada",
+		"KER-KMS-015": "O upload de certificado não é permitido para atualizar certificado de outro domínio",
+		"KER-KMS-016": "Não é permitido gerar novo par de chaves para outros domínios",
+		"KER-KMS-017": "Certificado não encontrado na tabela do keystore",
+		"KER-KMS-018": "Não é permitido descriptografar usando chave de outro domínio",
+		"KER-KMS-019": "Não foi possível descriptografar a chave simétrica usando a chave privada",
+		"KER-KMS-020": "Operação de assinatura não permitida para o application id e reference id fornecidos",
+		"KER-KMS-021": "Revogação de chave não permitida",
+		"KER-KMS-500": "Erro interno do servidor",
+		"KER-MSD-148": "Um ou mais parâmetros de entrada são inválidos ou não existem",
+		"KER-MSD-147": "Os dados do tipo de solicitante não existem",
+		"KER-MSD-149": "Erro ao buscar os detalhes de mapeamento Tipo de Solicitante - Categoria de Documento - Tipo de Documento",
+		"KER-MSD-150": "Mapeamento Categoria de Documento - Tipo de Documento não encontrado",
+		"KER-MSD-001": "Erro ao buscar aplicações",
+		"KER-MSD-101": "Requisição duplicada de tipo de centro. O centro já existe com os mesmos detalhes",
+		"KER-MSD-002": "Aplicação não encontrada",
+		"KER-MSD-201": "Requisição inválida",
+		"KER-MSD-193": "Erro ao buscar a configuração da aplicação",
+		"KER-MSD-196": "Exceção de erro de parsing",
+		"KER-MSD-198": "Exceção de auditoria do cliente::",
+		"KER-MSD-004": "Atributo biométrico não encontrado",
+		"KER-MSD-003": "Erro ao buscar atributos biométricos",
+		"KER-APP-103": "Erro ao inserir atributos biométricos",
+		"KER-MSD-005": "Erro ao buscar tipos biométricos",
+		"KER-MSD-105": "Erro ao inserir detalhes do tipo biométrico",
+		"KER-MSD-006": "Tipo biométrico não encontrado",
+		"KER-MSD-008": "Palavra bloqueada não encontrada",
+		"KER-MSD-071": "Requisição duplicada de palavra bloqueada",
+		"KER-MSD-007": "Erro ao buscar palavras bloqueadas",
+		"KER-MSD-070": "Erro ao inserir palavras bloqueadas",
+		"KER-MSD-210": "Erro ocorrido ao atualizar Palavra Bloqueada",
+		"KER-MSD-213": "Erro ocorrido ao excluir Palavra Bloqueada",
+		"KER-MSD-009": "Erro ocorrido ao buscar Dispositivos",
+		"KER-MSD-010": "Dispositivo não encontrado",
+		"KER-MSD-042": "O ID do dispositivo %s não existe",
+		"KER-MSD-069": "Erro ocorrido ao inserir detalhes do dispositivo",
+		"KER-MSD-083": "Erro ao atualizar",
+		"KER-MSD-084": "Erro ao excluir",
+		"KER-MSD-191": "Não é possível excluir devido à existência de dependências",
+		"KER-MSD-332": "Nenhum ID de dispositivo mapeado encontrado",
+		"KER-MSD-333": "Todos os IDs de dispositivo estão mapeados",
+		"KER-MSD-334": "Valor de filtro inválido",
+		"KER-MSD-335": "Nenhum ID de dispositivo encontrado para o nome: %s",
+		"KER-MSD-336": "Nenhum ID de especificação de dispositivo encontrado para o nome: %s",
+		"KER-MSD-344": "Nenhuma zona atribuída ao usuário",
+		"KER-MSD-345": "A zona %s não existe",
+		"KER-MSD-440": "Erro ocorrido ao buscar detalhes do dispositivo mapeado ao centro de registro informado",
+		"KER-MSD-441": "Centro de registro e dispositivo não encontrados",
+		"KER-MSD-395": "O usuário não está autorizado a descomissionar o dispositivo",
+		"KER-MSD-438": "O dispositivo não pode ser descomissionado pois está atribuído a um centro de registro",
+		"KER-MSD-700": "Erro de dispositivo",
+		"KER-MSD-439": "O administrador não está autorizado a acessar este dispositivo para esta zona",
+		"KER-MSD-DDD": "O dispositivo já foi descomissionado ou não foi encontrado",
+		"KER-MSD-219": "A zona do centro de registro na requisição não corresponde à zona do dispositivo",
+		"KER-MSD-222": "O centro de registro na requisição não está presente no banco de dados",
+		"KER-MSD-128": "Erro ocorrido ao buscar detalhes do histórico do dispositivo",
+		"KER-MSD-129": "Histórico do dispositivo não encontrado",
+		"KER-MSD-130": "Formato de data inválido",
+		"ADM-DPM-001": "O dispositivo está marcado como inativo ou não foi encontrado",
+		"ADM-DPM-002": "O dispositivo foi revogado/retirado",
+		"ADM-DPM-009": "Erro ocorrido ao verificar os detalhes do dispositivo %s",
+		"ADM-DPM-003": "O provedor do dispositivo não existe",
+		"ADM-DPM-004": "O provedor do dispositivo está inativo ou não foi encontrado",
+		"ADM-DPM-005": "deviceServiceVersion não encontrada",
+		"ADM-DPM-006": "MDS em estado inativo",
+		"ADM-DPM-007": "A versão do software não corresponde aos detalhes do dispositivo",
+		"ADM-DPM-008": "O código do dispositivo não corresponde a - %s",
+		"ADM-DPM-051": "O código do dispositivo não corresponde ao tipo",
+		"ADM-DPM-052": "O código do dispositivo não corresponde ao subtipo",
+		"ADM-DPM-012": "Erro ocorrido ao registrar o provedor de dispositivos",
+		"ADM-DPM-011": "O provedor de dispositivos %s já existe",
+		"ADM-DPM-014": "Erro ocorrido ao atualizar o provedor de dispositivos",
+		"ADM-DPM-015": "O código do dispositivo não está mapeado para o provedor de dispositivos",
+		"ADM-DPM-016": "Nenhum campo correspondente encontrado",
+		"ADM-DPM-056": "Erro ocorrido ao buscar detalhes do registro do dispositivo",
+		"ADM-DPM-037": "Status inválido recebido",
+		"ADM-DPM-057": "Erro ocorrido ao atualizar detalhes do registro do dispositivo",
+		"ADM-DPM-058": "Erro ocorrido ao criar detalhes do registro do dispositivo",
+		"ADM-DPM-050": "Erro ocorrido ao excluir detalhes do registro do dispositivo",
+		"ADM-DPM-038": "Dados não encontrados para o código de dispositivo informado",
+		"KER-DPR-002": "O dispositivo já foi desregistrado",
+		"KER-DPR-001": "Nenhum dispositivo registrado encontrado",
+		"KER-DPR-003": "O comprimento do código do dispositivo excede o limite permitido",
+		"KER-DPR-004": "Ambiente inválido",
+		"KER-DPM-039": "O dispositivo já está no status %s",
+		"ADM-DPM-059": "O dispositivo foi revogado",
+		"KER-MSD-012": "Especificação do dispositivo não encontrada",
+		"KER-MSD-011": "Erro ocorrido ao buscar especificações do dispositivo",
+		"KER-MSD-054": "Erro ocorrido ao inserir detalhes da especificação do dispositivo",
+		"KER-MSD-081": "Erro ocorrido ao atualizar a especificação do dispositivo",
+		"KER-MSD-082": "Erro ocorrido ao excluir a especificação do dispositivo",
+		"KER-MSD-121": "Não é possível excluir devido à existência de dependências",
+		"KER-MSD-347": "Nenhum dispositivo encontrado para o tipo de dispositivo informado",
+		"KER-MSD-714": "Código dtype_code inválido recebido",
+		"KER-MSD-217": "Existe mapeamento. Remova o mapeamento antes de desativar",
+		"KER-MSD-053": "Erro ocorrido ao inserir detalhes do tipo de dispositivo",
+		"KER-MSD-230": "Erro ocorrido ao buscar detalhes do tipo de dispositivo",
+		"KER-MSD-195": "Erro ocorrido ao mapear detalhes do tipo de dispositivo",
+		"KER-MSD-209": "Detalhe obrigatório do tipo de dispositivo não encontrado",
+		"KER-MSD-231": "Erro ocorrido ao atualizar detalhes do tipo de dispositivo",
+		"KER-MSD-055": "Existe mapeamento. Remova o mapeamento antes de desativar",
+		"KER-MSD-233": "Erro ocorrido ao buscar detalhes da categoria de documento",
+		"KER-MSD-051": "Erro ocorrido ao inserir detalhes da categoria de documento",
+		"KER-MSD-014": "Categoria de documento não encontrada",
+		"KER-MSD-089": "Erro ocorrido ao atualizar detalhes da categoria de documento",
+		"KER-MSD-090": "Erro ocorrido ao excluir detalhes da categoria de documento",
+		"KER-MSD-123": "Não é possível excluir devido à existência de dependências",
+		"KER-MSD-234": "Existe mapeamento. Remova o mapeamento antes de desativar",
+		"KER-MSD-015": "Erro ocorrido ao buscar tipos de documento",
+		"KER-MSD-052": "Erro ocorrido ao inserir detalhes do tipo de documento",
+		"KER-MSD-118": "Tipo de documento não encontrado",
+		"KER-MSD-091": "Erro ocorrido ao atualizar detalhes do tipo de documento",
+		"KER-MSD-124": "Não é possível excluir devido à existência de dependências",
+		"KER-MSD-092": "Erro ocorrido ao excluir detalhes do tipo de documento",
+		"KER-MSD-235": "Não é possível reativar o tipo de documento",
+		"KER-MSD-094": "Não é possível desativar um tipo de documento já desativado",
+		"KER-MSD-095": "Parâmetro obrigatório ausente nos detalhes do tipo de documento",
+		"KER-MSD-119": "Existe mapeamento. Remova o mapeamento antes de desativar",
+		"KER-EHD-001": "Erro ocorrido ao buscar feriados excepcionais",
+		"KER-EHD-002": "Feriado excepcional não encontrado",
+		"KER-MSD-802": "O ID do centro é inválido",
+		"ADM-DPM-054": "FTP não está presente para o ID informado",
+		"ADM-DPM-053": "Parâmetro de entrada obrigatório ausente",
+		"ADM-DPM-055": "O Provedor de Confiança Fundamental já existe",
+		"ADM-DPM-017": "Erro ocorrido ao registrar um Provedor de Confiança Fundamental",
+		"KER-MSD-017": "Erro ocorrido ao buscar tipos de gênero",
+		"KER-MSD-018": "Tipo de gênero não encontrado",
+		"KER-MSD-068": "Não foi possível inserir dados de gênero",
+		"KER-MSD-194": "Erro ocorrido ao atualizar detalhes do tipo de gênero",
+		"KER-MSD-102": "Erro ocorrido ao excluir detalhes do tipo de gênero",
+		"KER-MSD-019": "Erro ocorrido ao buscar feriados",
+		"KER-MSD-020": "Feriado não encontrado",
+		"KER-MSD-729": "Erro ocorrido ao inserir feriado",
+		"KER-MSD-731": "Erro ocorrido ao atualizar feriado",
+		"KER-MSD-730": "Código de localização 'location_code' inválido recebido",
+		"KER-MSD-240": "Requisição duplicada de feriado recebida",
+		"KER-MSD-732": "Código de localização 'location_code' inválido recebido",
+		"KER-MSD-100": "Erro ocorrido ao excluir feriado",
+		"KER-MSD-022": "Tipo de ID não encontrado",
+		"KER-MSD-021": "Erro ocorrido ao buscar tipos de ID",
+		"KER-MSD-059": "Erro ocorrido ao inserir detalhes do tipo de ID",
+		"KER-MSD-025": "Erro ocorrido ao buscar hierarquia de localização",
+		"KER-MSD-026": "Localização não encontrada",
+		"KER-MSD-241": "Erro ocorrido ao buscar níveis da hierarquia de localização",
+		"KER-MSD-242": "Erro ocorrido ao inserir detalhes da hierarquia de localização",
+		"KER-MSD-097": "Erro ocorrido ao atualizar detalhes da hierarquia de localização",
+		"KER-MSD-098": "Erro ocorrido ao excluir detalhes da hierarquia de localização",
+		"KER-MSD-028": "Nível da hierarquia de localização não encontrado",
+		"KER-MSD_386": "Código de idioma inválido:",
+		"KER-MSD-389": "O nível da hierarquia de localização não deve ser diferente entre idiomas",
+		"KER-MSD-244": "A hierarquia de localização é inválida",
+		"KER-MSD-388": "Os dados de localização não estão presentes no idioma primário: %s",
+		"KER-MSD-243": "Localização pai não encontrada",
+		"KER-MSD-027": "A localização pai %s não existe",
+		"KER-MSD-387": "O código de localização não deve ser diferente para uma localização em idiomas diferentes",
+		"KER-MSD-384": "Não é possível ativar a localização, pois os dados não estão presentes em todos os idiomas obrigatórios",
+		"KER-MSD-385": "A localização %s já existe na hierarquia",
+		"KER-MSD-300": "Não é possível desativar a localização, pois há localizações filhas ativas mapeadas",
+		"KER-MSD-___": "Nenhum dado encontrado para a coluna de filtro informada",
+		"KER-MSD-399": "Erro ocorrido ao buscar hierarquia de localização",
+		"KER-MSD-398": "Hierarquia de localização não encontrada",
+		"KER-MSD-029": "Erro ocorrido ao buscar máquinas",
+		"KER-MSD-030": "Máquina não encontrada",
+		"KER-MSD-214": "O ID da máquina %s não existe",
+		"KER-MSD-250": "Erro ocorrido ao inserir detalhes da máquina",
+		"KER-MSD-252": "Erro ocorrido ao atualizar detalhes da máquina",
+		"KER-MSD-251": "Erro ocorrido ao excluir detalhes da máquina",
+		"KER-MSD-190": "Não é possível excluir devido à existência de dependências",
+		"KER-MSD-331": "Erro ocorrido ao buscar detalhes da máquina mapeada ao centro de registro informado",
+		"KER-MSD-326": "Nenhuma máquina atribuída encontrada",
+		"KER-MSD-327": "Nenhuma máquina não atribuída encontrada",
+		"KER-MSD-328": "Valor de filtro inválido para a coluna de status de mapeamento",
+		"KER-MSD-329": "Nenhuma máquina encontrada para o nome do tipo de máquina: %s",
+		"KER-MSD-330": "Nenhuma especificação de máquina encontrada para o nome do tipo de máquina: %s",
+		"KER-MSD-342": "Nenhuma zona atribuída ao usuário",
+		"KER-MSD-225": "O usuário não está autorizado a descomissionar a máquina",
+		"KER-MSD-255": "O administrador não está autorizado a acessar esta máquina para esta zona",
+		"KER-MSD-343": "A zona %s não existe",
+		"KER-MSD-437": "O ID da máquina %s não existe para o idioma primário",
+		"KER-MSD-256": "A máquina não pode ser descomissionada pois há centros de registro mapeados",
+		"KER-MSD-257": "Chave pública inválida fornecida",
+		"KER-MSD-410": "Chave pública de assinatura inválida fornecida",
+		"KER-MSD-031": "Erro ocorrido ao buscar detalhes do histórico da máquina",
+		"KER-MSD-032": "Histórico da máquina não encontrado",
+		"KER-MSD-033": "Formato de data inválido",
+		"KER-MSD-117": "Especificação da máquina não encontrada",
+		"KER-MSD-258": "Erro ocorrido ao inserir detalhes da especificação da máquina",
+		"KER-MSD-085": "Erro ocorrido ao atualizar detalhes da especificação da máquina",
+		"KER-MSD-087": "Erro ocorrido ao buscar detalhes da especificação da máquina",
+		"KER-MSD-086": "Erro ocorrido ao excluir detalhes da especificação da máquina",
+		"KER-MSD-122": "Não é possível excluir devido à existência de dependências",
+		"KER-MSD-349": "Nenhuma máquina encontrada para o nome do tipo de máquina: %s",
+		"KER-MSD-722": "Código mtype_code inválido recebido",
+		"KER-MSD-088": "Existe mapeamento. Remova o mapeamento antes de desativar",
+		"KER-MSD-061": "Erro ocorrido ao inserir detalhes do tipo de máquina",
+		"KER-MSD-062": "Erro ocorrido ao buscar detalhes do tipo de máquina",
+		"KER-MSD-063": "Tipo de máquina não encontrado",
+		"KER-MSD-064": "Erro ocorrido ao atualizar detalhes do tipo de máquina",
+		"KER-MSD-065": "Existe mapeamento. Remova o mapeamento antes de desativar",
+		"KER-MSD-310": "Coluna inválida recebida: %s",
+		"KER-MSD-313": "Valor de paginação inválido recebido pagestart:%d e pagefetch:%d",
+		"KER-MSD-312": "O tipo de filtro está ausente",
+		"KER-MSD-311": "A coluna está ausente na requisição",
+		"KER-MSD-314": "Valores do campo de ordenação ou do tipo de ordenação ausentes",
+		"KER-MSD-315": "Valor fromValue ou toValue inválido",
+		"KER-MSD-356": "A paginação não pode ser nula",
+		"KER-MSD-358": "O tipo de ordenação %s não é suportado",
+		"KER-MSD-359": "Erro ocorrido durante a ordenação",
+		"KER-MSD-357": "Campo de ordenação inválido %s",
+		"KER-MSD-390": "Valor de filtro inválido",
+		"KER-MSD-261": "Erro ocorrido ao analisar o timestamp lastUpdated",
+		"KER-MSD-262": "O timestamp não pode ser uma data futura",
+		"KER-MSD-245": "Erro ocorrido ao buscar módulo",
+		"KER-MSD-248": "Módulo não encontrado",
+		"ADM-DPM-040": "O código do tipo de dispositivo de registro não foi encontrado na lista de tipos de dispositivos de registro",
+		"ADM-DPM-041": "O código do subtipo de dispositivo de registro não foi encontrado na lista de subtipos de dispositivos de registro",
+		"ADM-DPM-039": "O ID do provedor de dispositivos não foi encontrado na lista de provedores de dispositivos",
+		"ADM-DPM-021": "O MOSIP-Device-Service já existe",
+		"ADM-DPM-022": "Erro ocorrido ao armazenar os detalhes do MDS",
+		"ADM-DPM-023": "O ID do MDS %s não existe",
+		"ADM-DPM-024": "Erro ocorrido ao atualizar os detalhes do MDS",
+		"KER-MSD-036": "Motivo não encontrado",
+		"KER-MSD-035": "Erro ocorrido ao buscar motivos",
+		"KER-MSD-057": "Erro ocorrido ao inserir detalhes do motivo",
+		"KER-MSD-058": "Erro ocorrido ao inserir detalhes do motivo",
+		"KER-MSD-263": "Erro ocorrido ao pesquisar o registro: requisição inválida",
+		"KER-MSD-364": "Falha ao retomar o pacote",
+		"KER-MSD-365": "A especificação do dispositivo está inativa",
+		"ADM-DPM-032": "O ID/Nome do provedor de dispositivos não existe na lista de provedores de dispositivos registrados",
+		"ADM-DPM-035": "Erro ocorrido ao armazenar os detalhes do dispositivo registrado",
+		"ADM-DPM-042": "%s não pode registrar o dispositivo pois não é um dispositivo da lista de permissões",
+		"ADM-DPM-028": "Erro ocorrido ao validar o código de status",
+		"KER-DPM-sss": "Erro ocorrido ao validar o valor do tipo",
+		"ADM-DPM-034": "Erro ocorrido ao validar o nível de certificação",
+		"ADM-DPM-033": "Erro ocorrido ao validar o valor de finalidade",
+		"ADM-DPM-026": "O tipo de dispositivo %s não existe",
+		"ADM-DPM-043": "O número de série e o DpId já existem",
+		"ADM-DPM-027": "O subtipo de dispositivo %s não existe",
+		"MSD-RDS-001": "O timestamp informado está %s minutos após o timestamp atual",
+		"MSD-RDS-002": "O timestamp informado está %s minutos antes do timestamp atual",
+		"ADM-DPM-030": "Erro ocorrido ao validar o fundamento",
+		"KER-MSD-075": "Erro ocorrido ao inserir o mapeamento de dispositivo e centro",
+		"KER-MSD-115": "Mapeamento de dispositivo e centro não encontrado",
+		"KER-MSD-211": "Erro ocorrido ao excluir o mapeamento de dispositivo e centro",
+		"KER-MSD-433": "Erro ocorrido ao buscar detalhes do dispositivo do centro",
+		"KER-MSD-434": "Já está no status inativo",
+		"KER-MSD-435": "O mapeamento do ID do dispositivo %s com o ID do centro %s não existe",
+		"KER-MSD-415": "O administrador não está autorizado a mapear/desmapear este dispositivo",
+		"KER-MSD-411": "O administrador não está autorizado a mapear/desmapear este centro de registro",
+		"KER-MSD-436": "Erro ocorrido ao mapear o dispositivo ao centro de registro",
+		"KER-MSD-416": "O dispositivo não pode ser mapeado ao centro pois o centro e o dispositivo não pertencem à mesma zona administrativa",
+		"KER-MSD-419": "Não é possível mapear o dispositivo pois ele está mapeado para outro centro de registro",
+		"KER-MSD-418": "Não é possível mapear pois o centro de registro ou o dispositivo está em estado descomissionado",
+		"KER-MSD-417": "Dispositivo não encontrado",
+		"KER-MSD-132": "Erro ocorrido ao buscar detalhes do histórico de dispositivos do centro de registro",
+		"KER-MSD-133": "Histórico de dispositivos do centro de registro não encontrado",
+		"KER-MSD-041": "Erro ocorrido ao buscar centros de registro",
+		"KER-MSD-060": "Erro ocorrido ao inserir detalhes do centro de registro",
+		"KER-MSD-111": "Erro ocorrido ao atualizar detalhes do centro de registro",
+		"KER-MSD-112": "Erro ocorrido ao excluir detalhes do centro de registro",
+		"KER-MSD-215": "Centro de registro não encontrado",
+		"KER-MSD-303": "Os dados recebidos não estão presentes em todos os idiomas suportados pelo MOSIP",
+		"KER-MSD-304": "Os IDs de centro recebidos para todos os idiomas não são iguais",
+		"KER-MSD-305": "A combinação de ID do centro e código de idioma não é única na requisição recebida",
+		"KER-MSD-306": "Registros com código de idioma duplicado encontrados",
+		"KER-MSD-192": "Não é possível excluir devido à existência de dependências",
+		"KER-MSD-043": "Formato de data inválido",
+		"KER-MSD-259": "O horário de início do almoço não pode ser anterior ao horário de início do centro",
+		"KER-MSD-260": "O horário de término do almoço não pode ser posterior ao horário de término do centro",
+		"KER-MSD-309": "O horário de início do centro deve ser menor que o horário de término do centro",
+		"KER-MSD-308": "O horário de início do almoço do centro deve ser menor que o horário de término do almoço",
+		"KER-MSD-307": "Latitude ou longitude devem ter no máximo 2 dígitos antes e no mínimo 4 dígitos após o separador decimal",
+		"KER-MSD-703": "Os dados de horário de início/fim não estão configurados no banco de dados",
+		"KER-MSD-320": "Localização não encontrada no idioma logado",
+		"KER-MSD-321": "Tipo de centro de registro não encontrado no idioma logado",
+		"KER-MSD-340": "A zona não existe",
+		"KER-MSD-803": "Não é possível criar pois os dados para todos os sete dias não foram recebidos",
+		"KER-MSD-704": "Os dados recebidos não estão presentes no idioma primário suportado pelo MOSIP",
+		"KER-MSD-705": "O idioma fornecido não é suportado pelo MOSIP",
+		"KER-MSD-706": "Para o ID informado, os dados estão presentes em todos os códigos de idioma suportados pelo MOSIP; portanto, utilize Editar",
+		"KER-MSD-382": "O código de idioma recebido %s não é um idioma configurado",
+		"KER-MSD-381": "O ID do centro %s não existe para o idioma primário",
+		"KER-MSD-362": "Certifique-se de que todos os IDs informados sejam iguais - %s",
+		"KER-MSD-363": "Certifique-se de que todos os códigos de tipo de centro informados sejam iguais - %s",
+		"KER-MSD-264": "Certifique-se de que todas as latitudes informadas sejam iguais - %s",
+		"KER-MSD-265": "Certifique-se de que todas as longitudes informadas sejam iguais - %s",
+		"KER-MSD-366": "Certifique-se de que todos os telefones de contato informados sejam iguais - %s",
+		"KER-MSD-367": "Certifique-se de que todos os horários de funcionamento informados sejam iguais - %s",
+		"KER-MSD-368": "Certifique-se de que todos os horários de início do centro informados sejam iguais - %s",
+		"KER-MSD-369": "Certifique-se de que todos os horários de término do centro informados sejam iguais - %s",
+		"KER-MSD-370": "Certifique-se de que todos os horários de início do almoço informados sejam iguais - %s",
+		"KER-MSD-371": "Certifique-se de que todos os horários de término do almoço informados sejam iguais - %s",
+		"KER-MSD-253": "Certifique-se de que todos os fusos horários informados sejam iguais - %s",
+		"KER-MSD-373": "Certifique-se de que todos os códigos de localidade de feriado informados sejam iguais - %s",
+		"KER-MSD-218": "Certifique-se de que todos os códigos de zona informados sejam iguais - %s",
+		"KER-MSD-375": "Certifique-se de que todos os tempos de processamento por quiosque informados sejam iguais - %s",
+		"KER-MSD-376": "Certifique-se de que todos os status Ativo informados sejam iguais - %s",
+		"KER-MSD-377": "Certifique-se de que o tamanho do ID esteja entre 1 e 10 caracteres - %s",
+		"KER-MSD-378": "Não é possível ativar pois o centro referente ao ID %s não está presente em todos os idiomas configurados",
+		"KER-MSD-379": "O centro referente ao ID %d recebido já está Ativo",
+		"KER-MSD-380": "O centro referente ao ID %d recebido já está Inativo",
+		"KER-MSD-383": "Os dados recebidos não contêm informações no idioma primário",
+		"KER-MSD-346": "O código de zona recebido não pertence ao usuário",
+		"KER-MSD-341": "Nenhuma zona atribuída ao usuário",
+		"KER-MSD-350": "Não é possível descomissionar o centro de registro, pois há dispositivos mapeados",
+		"KER-MSD-352": "Não é possível descomissionar o centro de registro, pois há usuários mapeados",
+		"KER-MSD-351": "Não é possível descomissionar o centro de registro, pois há máquinas mapeadas",
+		"KER-MSD-354": "Erro interno do servidor",
+		"KER-MSD-353": "O ID do centro especificado para descomissionamento possui comprimento inválido",
+		"KER-MSD-223": "O administrador não está autorizado a acessar este centro de registro para esta zona",
+		"KER-MSD-216": "O centro de registro já foi descomissionado ou não foi encontrado",
+		"KER-MSD-221": "Código de localidade de feriado não encontrado",
+		"ADM-SSS-sss": "Esta data de feriado está presente na lista predefinida de feriados nacionais",
+		"ADM-fff-sss": "A requisição de dias úteis/não úteis está nula",
+		"ADM-fff-eee": "A requisição de feriado excepcional está nula",
+		"KER-MSD-076": "Erro ocorrido ao inserir o mapeamento de centro, máquina e dispositivo",
+		"KER-MSD-107": "Erro ocorrido ao excluir o mapeamento de centro, máquina e dispositivo",
+		"KER-MSD-116": "Mapeamento de centro, máquina e dispositivo não encontrado",
+		"KER-MSD-707": "Erro ocorrido ao inserir o mapeamento de centro, máquina e dispositivo",
+		"KER-MSD-074": "Erro ocorrido ao inserir o mapeamento de máquina e centro",
+		"KER-MSD-114": "Mapeamento não existe",
+		"KER-MSD-106": "Erro ocorrido ao excluir o mapeamento de máquina e centro",
+		"KER-MSD-601": "Erro ocorrido ao buscar detalhes de máquinas do centro",
+		"KER-MSD-412": "O administrador não está autorizado a mapear/desmapear esta máquina",
+		"KER-MSD-602": "Já está no status inativo",
+		"KER-MSD-409": "Centro de registro não encontrado",
+		"KER-MSD-421": "O centro de registro mapeado à máquina está descomissionado",
+		"KER-MSD-600": "O centro de registro já está mapeado à máquina",
+		"KER-MSD-420": "O centro de registro e a máquina não estão na mesma hierarquia",
+		"KER-MSD-078": "Erro ocorrido ao inserir o mapeamento de centro, usuário e máquina",
+		"KER-MSD-131": "Mapeamento de centro, máquina e usuário não encontrado",
+		"KER-MSD-108": "Erro ocorrido ao excluir o mapeamento de centro, usuário e máquina",
+		"KER-MSD-136": "Erro ocorrido ao atualizar o mapeamento de centro, usuário e máquina",
+		"KER-MSD-013": "Erro ocorrido ao buscar detalhes do tipo de centro de registro",
+		"KER-MSD-050": "Erro ocorrido ao inserir detalhes do tipo de centro de registro",
+		"KER-MSD-120": "Tipo de centro de registro não encontrado",
+		"KER-MSD-109": "Erro ocorrido ao atualizar detalhes do tipo de centro de registro",
+		"KER-MSD-110": "Erro ocorrido ao excluir detalhes do tipo de centro de registro",
+		"KER-MSD-127": "Não é possível excluir devido à existência de dependências",
+		"KER-MSD-270": "Existe mapeamento. Remova o mapeamento antes de desativar",
+		"KER-MSD-423": "O mapeamento do ID do usuário %s com o ID do centro %s não existe",
+		"KER-MSD-424": "Erro ocorrido ao mapear usuário ao centro de registro",
+		"KER-MSD-425": "Erro ocorrido ao desmapear usuário do centro de registro",
+		"KER-MSD-426": "O mapeamento usuário-centro de registro já existe",
+		"KER-MSD-428": "Não é possível mapear pois o centro de registro está descomissionado ou não existe",
+		"KER-MSD-429": "O administrador não está autorizado a mapear/desmapear este usuário",
+		"KER-MSD-430": "O administrador não está autorizado a mapear/desmapear para este centro de registro",
+		"KER-MSD-431": "O usuário não pode ser mapeado/desmapeado ao centro pois o centro e o usuário não pertencem à mesma zona administrativa",
+		"KER-MSD-427": "O usuário não está mapeado para nenhuma zona",
+		"KER-MSD-432": "Não é possível mapear o usuário pois ele está mapeado para outro centro de registro",
+		"KER-MSD-037": "Erro ocorrido ao buscar mapeamentos de centro de registro, máquina e usuário",
+		"KER-MSD-038": "Centro de registro, máquina ou usuário não encontrado",
+		"KER-MSD-039": "Formato de data inválido",
+		"KER-MSD-319": "Entrada de requisição inválida",
+		"KER-MSD-500": "Erro interno do servidor",
+		"KER-MSD-998": "Já ativado ou desativado",
+		"KER-MSD-997": "ID inválido informado para o idioma primário",
+		"KER-MSD-996": "O ID já existe",
+		"KER-MSD-994": "O código já existe",
+		"KER-SCH-001": "Erro ocorrido ao buscar campos dinâmicos",
+		"KER-SCH-002": "Erro ocorrido ao inserir campo dinâmico",
+		"KER-SCH-020": "Erro ocorrido ao excluir campo dinâmico",
+		"KER-SCH-003": "Campo dinâmico não encontrado",
+		"KER-SCH-004": "Erro ocorrido ao buscar esquema de identidade",
+		"KER-SCH-005": "Erro ocorrido ao inserir esquema de identidade",
+		"KER-SCH-006": "Erro ocorrido ao atualizar esquema de identidade",
+		"KER-SCH-007": "Esquema de identidade não encontrado",
+		"KER-SCH-008": "Nenhum esquema de identidade publicado",
+		"KER-SCH-009": "O esquema já foi publicado",
+		"KER-SCH-010": "A data de vigência do esquema não pode ser anterior",
+		"KER-SCH-011": "Erro ocorrido ao atualizar campo dinâmico",
+		"KER-SCH-012": "O campo dinâmico já existe",
+		"KER-SCH-013": "Erro ao analisar a string JSON",
+		"KER-SCH-014": "Erro ao construir o JSON do esquema",
+		"KER-SCH-015": "Requisição inválida",
+		"KER-SCH-016": "Campos duplicados encontrados %s",
+		"KER-SCH-017": "O SubTipo é obrigatório para o campo %s",
+		"KER-SCH-018": "Atributos biométricos são obrigatórios para o campo %s",
+		"KER-SCH-019": "Os mesmos atributos biométricos foram usados em campo com o mesmo SubTipo: %s",
+		"KER-MSD-045": "Erro ocorrido ao buscar modelos",
+		"KER-MSD-145": "Exceção durante a inserção de dados no banco de dados",
+		"KER-MSD-046": "Modelo não encontrado",
+		"KER-MSD-238": "Erro ocorrido ao atualizar o modelo",
+		"KER-MSD-096": "Erro ocorrido ao excluir o modelo",
+		"KER-MSD-232": "Erro ocorrido ao inserir detalhes do formato de arquivo do modelo",
+		"KER-MSD-093": "Erro ocorrido ao atualizar o modelo",
+		"KER-MSD-236": "Erro ocorrido ao excluir o modelo",
+		"KER-MSD-125": "Não é possível excluir devido à existência de dependências",
+		"KER-MSD-246": "Erro ocorrido ao buscar o formato de arquivo do modelo",
+		"KER-MSD-237": "Existe mapeamento. Remova o mapeamento antes de desativar",
+		"KER-MSD-072": "Erro ocorrido ao inserir detalhes do tipo de modelo no banco de dados",
+		"KER-MSD-247": "Erro ocorrido ao buscar o tipo de modelo",
+		"KER-MSD-249": "Tipo de modelo não encontrado",
+		"KER-MSD-047": "Erro ocorrido ao buscar títulos",
+		"KER-MSD-048": "Título não encontrado",
+		"KER-MSD-708": "Erro ocorrido ao inserir detalhes do título",
+		"KER-MSD-103": "Erro ocorrido ao atualizar detalhes do título",
+		"KER-MSD-104": "Erro ocorrido ao excluir detalhes do título",
+		"KER-UIS-001": "Erro ocorrido ao buscar a especificação da UI",
+		"KER-UIS-002": "Erro ocorrido ao inserir a especificação da UI",
+		"KER-UIS-003": "Erro ocorrido ao atualizar a especificação da UI",
+		"KER-UIS-004": "Especificação da UI não encontrada",
+		"KER-UIS-005": "Nenhuma especificação da UI publicada",
+		"KER-UIS-006": "A especificação da UI já foi publicada",
+		"UIS-UIS-007": "A data de vigência da especificação da UI não pode ser anterior",
+		"KER-UIS-008": "Erro ao analisar a string JSON",
+		"KER-UIS-009": "Esquema de identidade não encontrado",
+		"KER-USR-002": "Formato de data inválido",
+		"KER-USR-004": "Erro ocorrido ao recuperar detalhes do usuário",
+		"KER-USR-005": "Falha na criação do usuário",
+		"KER-USR-006": "Falha ao desmapear usuário",
+		"KER-USR-007": "Mapeamento de centro do usuário não encontrado",
+		"KER-USR-008": "O mapeamento de zona do usuário não existe ou não está ativo",
+		"KER-USR-009": "Erro ocorrido ao analisar a resposta de detalhes do usuário do serviço de autenticação",
+		"KER-USR-010": "Erro ocorrido no mapeamento de zona do usuário",
+		"KER-USR-011": "O mapeamento de centro do usuário deve ser excluído antes de remapear o usuário",
+		"KER-USR-012": "O centro de registro não existe para o idioma informado",
+		"KER-USR-013": "O usuário já existe",
+		"KER-USR-001": "Erro ocorrido ao recuperar o histórico do usuário",
+		"KER-USR-003": "Histórico do usuário não encontrado",
+		"KER-USR-015": "Falha na criação do histórico do usuário",
+		"KER-MSD-316": "A coluna %s não suporta filtro",
+		"KER-MSD-317": "A coluna %s não existe para a entidade pesquisada",
+		"KER-MSD-318": "A coluna %s não suporta o tipo de filtro %s",
+		"KER-MSD-272": "O valor da coluna é nulo ou vazio",
+		"KER-MSD-322": "O tipo de filtro não pode ser vazio ou nulo",
+		"KER-MSD-323": "O tipo de filtro para a coluna %s não é suportado",
+		"KER-MSD-324": "O tipo de filtro recebido não é suportado",
+		"KER-MSD-348": "A coluna recebida não suporta filtro",
+		"KER-MSD-709": "Violação de restrição",
+		"KER-MSD-325": "Nome de coluna inválido informado",
+		"KER-MSD-212": "Exceção durante a inserção de dados no banco de dados",
+		"KER-MSD-016": "Documento válido não encontrado",
+		"KER-MSD-113": "Erro ocorrido ao excluir o mapeamento de categoria de documento e tipo de documento",
+		"KER-MSD-205": "Erro ocorrido ao buscar categorias de documento e tipos de documento",
+		"KER-MSD-360": "O tipo de documento já está mapeado para a categoria de documento informada",
+		"KER-MSD-361": "O mapeamento da categoria de documento %s com o tipo de documento %s não existe",
+		"KER-MSD-271": "O tipo de documento já está desmapeado da categoria de documento informada",
+		"KER-MSD-355": "Nenhuma categoria de documento encontrada para o código de categoria de documento informado",
+		"KER-MSD-800": "Erro ocorrido ao buscar detalhes de dias úteis do centro de registro",
+		"KER-WKDS-002": "Nenhum dia da semana encontrado",
+		"KER-WKDS-003": "Nenhum dado de dia útil/não útil encontrado",
+		"KER-MSD-337": "Erro ocorrido ao buscar zona",
+		"KER-MSD-339": "Nenhuma zona encontrada para o usuário logado %s",
+		"KER-MSD-338": "Erro ocorrido ao buscar a zona do usuário",
+		"KER-MSD-391": "Mapeamento de zona ausente. Por favor, mapeie o usuário para uma zona",
+		"KER-MSD-392": "Entidade não encontrada para o código de zona do ID do usuário informado",
+		"ADM-PKT-001": "O administrador não está autorizado",
+		"KER-MSD-393": "Erro interno do servidor",
+		"KER-USR-016": "Falha no mapeamento de zona e usuário",
+		"KER-USR-019": "Mapeamento de zona e usuário não encontrado",
+		"KER-USR-020": "Falha ao buscar zona",
+		"KER-USR-017": "O mapeamento de zona e usuário não está presente no banco de dados",
+		"KER-USR-018": "Requisição duplicada",
+		"KER-USR-021": "O usuário informado já está mapeado para uma zona diferente",
+		"KER-USR-022": "O mapeamento de centro do usuário deve ser excluído antes de remover o usuário da zona",
+		"ADMN-BLK-TRNSCTNS-001": "Não foi possível recuperar as transações",
+		"ADMN-BLK-001": "Ocorreu um erro durante a operação em massa. Se a categoria for dados mestres, as operações com falha serão listadas. Se a categoria for pacote, as informações dos pacotes com falha serão listadas",
+		"ADM-BLK-001": "Os dados não existem no banco de dados",
+		"ADM-BLK-002": "Por favor, insira uma entrada válida",
+		"ADM-BLK-003": "Registro duplicado",
+		"KER-ATH-401": "Falha na autenticação",
+		"KER-ATH-403": "Acesso proibido",
+		"KER-ATH-002": "Falha ao conectar ao serviço de autenticação",
+		"KER-ATH-001": "Erro ocorrido ao analisar o erro da resposta",
+		"ADM-PKT-000": "Exceção de execução da URL do administrador",
+		"ADM-PKT-005": "Exceção de host desconhecido do administrador",
+		"KER-MSD-197": "Exceção de erro de parsing",
+		"KER-MSD-199": "Exceção de auditoria do cliente::",
+		"ADM-PKT-002": "RID inválido",
+		"ADM_PKT-003": "O centro não existe",
+		"ADM-PKT-010": "Exceção de parsing JSON ao analisar a resposta",
+		"ADM-PKT-090": "Erro ocorrido ao buscar atualização de status do pacote",
+		"KER-MSD-999": "Entrada de requisição inválida",
+		"ADMN-LRID-001": "Não foi possível encontrar o RID perdido",
+		"ADM-BLK-004": "Os formatos suportados são apenas arquivos CSV",
+		"ADM-BLK-005": "O formato suportado é apenas arquivo ZIP",
+		"ADM-BLK-006": "Arquivo vazio não é aceitável, forneça um arquivo válido",
+		"ADM-MSD-446": "Localização não encontrada",
+		"KER-MSD-280": "Tipo de centro não encontrado para o idioma",
+		"KER-DYN-001": "O campo dinâmico é inválido, deve conter símbolos e chaves de valor",
+		"ADM-BLK-007": "Nenhum arquivo enviado",
+		"ADM-BLK-008": "Entrada encontrada com os mesmos valores de chave primária",
+		"ADM-BLK-009": "Falha ao processar a entrada",
+		"KER-MSD-413": "Entrada já encontrada para o nome da máquina fornecido",
+		"KER-MSD-414": "Entrada já encontrada para as chaves públicas fornecidas",
+		"ADM-PKT-004": "RID não encontrado",
+		"RPR-RGS-001": "Não foi possível acessar a tabela de registro",
+		"RPR-RGS-013": "Valor de requisição ausente",
+		"RPR-RGS-015": "Valor de requisição inválido – os dados de entrada estão incorretos",
+		"RPR-RGS-022": "Parâmetro de requisição inválido – versão",
+		"RPR-RGS-023": "Parâmetro de requisição inválido – requesttime",
+		"RPR-RGS-024": "Parâmetro de requisição inválido – Id",
+		"RPR-RGS-031": "RID não encontrado",
+		"RPR-RGS-032": "Por favor, refine sua pesquisa",
+		"RPR-RGS-033": "A pesquisa entre datas deve ser inferior a 30 dias",
+		"RPR-PKR-SUCCESS-001": "O pacote chegou ao receptor de pacotes",
+		"RPR-PKR-FAILED-001": "O pacote está infectado por vírus",
+		"RPR-SYS-EXCEPTION-001": "Ocorreu uma exceção no sistema – não foi possível processar o pacote",
+		"RPR-PKR-SUCCESS-002": "O pacote foi enviado para a zona de entrada",
+		"RPR-PKR-FAILED-002": "Falha na descriptografia do pacote",
+		"RPR-PKU-SUCCESS-001": "Pacote enviado para o armazenamento de pacotes",
+		"RPR-PKU-FAILED-001": "Falha na limpeza do pacote na zona de entrada",
+		"RPR-PKU-FAILED-002": "Falha no arquivamento do pacote",
+		"RPR-PKU-FAILED-003": "Falha no upload do pacote",
+		"RPR-PKU-FAILED-004": "Pacote não encontrado na zona de entrada",
+		"RPR-PKU-FAILED-005": "Falha na validação do código hash do pacote",
+		"RPR-PKU-FAILED-006": "O pacote está infectado por vírus",
+		"RPR-PKU-FAILED-007": "Falha na descriptografia do pacote",
+		"RPR-QCK-SUCCESS-001": "Parâmetro biométrico individual não encontrado no JSON do ID",
+		"RPR-QCK-FAILED-001": "A pontuação de qualidade biométrica está abaixo do limite",
+		"RPR-QCK-SUCCESS-002": "Verificação de qualidade biométrica realizada com sucesso",
+		"RPR-PKV-SUCCESS-001": "Validação do pacote realizada com sucesso",
+		"RPR-PKV-FAILED-001": "Falha na validação do arquivo",
+		"RPR-PKV-FAILED-002": "Falha na validação do esquema",
+		"RPR-PKV-FAILED-003": "Falha na validação do checksum",
+		"RPR-PKV-FAILED-004": "Falha na validação biométrica individual",
+		"RPR-PKV-FAILED-005": "Falha na validação do documento do requerente",
+		"RPR-PKV-FAILED-006": "Falha na validação dos dados mestres",
+		"RPR-PKV-FAILED-007": "Falha na validação de ativação/desativação do pacote",
+		"RPR-PKV-FAILED-008": "UIN não encontrado no repositório de IDs",
+		"RPR-PKV-FAILED-009": "Campos obrigatórios não estão presentes no objeto de ID",
+		"RPR-PKV-FAILED-010": "Ocorreu divergência de RID",
+		"RPR-EXS-SUCCESS-001": "O processamento do pacote na etapa externa foi bem-sucedido",
+		"RPR-EXS-FAILED-001": "O processamento do pacote na etapa externa falhou",
+		"RPR-OSI-FAILED-001": "Detalhes de GPS não encontrados no pacote",
+		"RPR-OSI-FAILED-002": "O ID do centro não foi encontrado no banco de dados mestre",
+		"RPR-OSI-FAILED-003": "O centro estava inativo durante a criação do pacote",
+		"RPR-OSI-FAILED-004": "O ID da máquina não foi encontrado no banco de dados mestre",
+		"RPR-OSI-FAILED-005": "O ID da máquina estava inativo durante a criação do pacote",
+		"RPR-OSI-FAILED-006": "Mapeamento centro-máquina-usuário não encontrado",
+		"RPR-OSI-FAILED-007": "Mapeamento centro-dispositivo não encontrado",
+		"RPR-OSI-FAILED-008": "O mapeamento centro-dispositivo estava inativo durante a criação do pacote",
+		"RPR-OSI-FAILED-009": "Dispositivo não encontrado no banco de dados mestre",
+		"RPR-OSI-FAILED-010": "O ID do dispositivo estava inativo durante a criação do pacote",
+		"RPR-OSI-FAILED-011": "O pacote não foi criado durante o horário de funcionamento",
+		"RPR-OSI-FAILED-012": "Os IDs do operador e do supervisor estão nulos",
+		"RPR-OSI-FAILED-013": "O operador ou o supervisor não estavam ativos durante a criação do pacote",
+		"RPR-OSI-FAILED-014": "A data de criação do pacote está nula",
+		"RPR-OSI-FAILED-015": "Falha na verificação de senha ou OTP do operador",
+		"RPR-OSI-FAILED-016": "Falha na autenticação biométrica do operador ou supervisor",
+		"RPR-OSI-FAILED-017": "Falha na verificação de senha ou OTP do supervisor",
+		"RPR-OSI-FAILED-018": "UIN ou RID do responsável não encontrado no pacote",
+		"RPR-OSI-FAILED-019": "UIN do responsável não encontrado para o RID informado",
+		"RPR-OSI-FAILED-020": "Nome do arquivo biométrico do responsável não encontrado",
+		"RPR-OSI-FAILED-021": "Pacote em espera pois o RID do responsável não foi encontrado",
+		"RPR-OSI-FAILED-022": "Pacote rejeitado pois o pacote do responsável foi rejeitado",
+		"RPR-OSI-SUCCESS-001": "Validação OSI realizada com sucesso",
+		"RPR-MSS-SUCCESS-001": "Notificação enviada com sucesso",
+		"RPR-MSS-FAILED-001": "ID de e-mail, telefone, modelo ou tipo de notificação ausente",
+		"RPR-PPS-SUCCESS-001": "PDF adicionado à fila para impressão",
+		"RPR-PPS-FAILED-001": "O PDF não foi adicionado à fila devido a falha na fila",
+		"RPR-PPS-SUCCESS-002": "Impressão e postagem concluídas",
+		"RPR-PPS-SUCCESS-003": "Cartão UIN reenviado para impressão",
+		"RPR-BDP-SUCCESS-001": "Desduplicação biométrica em andamento",
+		"RPR-BDP-SUCCESS-002": "Desduplicação biométrica realizada com sucesso",
+		"RPR-BDP-FAILED-001": "Possível correspondência biométrica encontrada durante o processamento do pacote",
+		"RPR-BDP-FAILED-002": "Nenhuma correspondência encontrada para as biometrias recebidas",
+		"RPR-BDP-SUCCESS-003": "Nenhuma correspondência encontrada para as biometrias recebidas",
+		"RPR-BDP-FAILED-003": "Múltiplas correspondências encontradas para as biometrias recebidas",
+		"RPR-BAU-FAILED-001": "Falha na autenticação biométrica",
+		"RPR-BAU-SUCCESS-001": "Autenticação biométrica realizada com sucesso",
+		"RPR-DDP-SUCCESS-001": "Desduplicação demográfica realizada com sucesso",
+		"RPR-DDP-FAILED-001": "Desduplicação demográfica realizada com sucesso",
+		"RPR-DDP-FAILED-002": "Possível correspondência demográfica encontrada",
+		"RPR-MNV-SUCCESS-001": "Nenhuma correspondência encontrada pelo verificador manual",
+		"RPR-MNV-FAILED-001": "Correspondência encontrada pelo verificador manual",
+		"RPR-UIN-SUCCESS-001": "UIN gerado com sucesso",
+		"RPR-UIN-SUCCESS-002": "Dados do UIN atualizados com sucesso",
+		"RPR-UIN-FAILED-001": "O UIN já está ativado",
+		"RPR-UIN-SUCCESS-003": "O UIN foi ativado",
+		"RPR-UIN-FAILED-002": "Falha na ativação do UIN",
+		"RPR-UIN-FAILED-003": "O UIN já está desativado",
+		"RPR-UIN-SUCCESS-004": "O UIN foi desativado",
+		"RPR-UIN-SUCCESS-005": "RID vinculado com sucesso para pacote de UIN perdido",
+		"RPR-RPS-FAILED-001": "O número de reprocessamentos excedeu as tentativas configuradas",
+		"RPR-RPS-SUCCESS-001": "Reprocessamento concluído",
+		"RPR-OSI-FAILED-023": "ID da máquina não encontrado no banco de dados mestre",
+		"RPR-AMW-SUCCESS-001": "Requisição de inserção ou identificação enviada com sucesso para a fila ABIS",
+		"RPR-AMW-FAILED-001": "Falha ao enviar requisição de inserção ou identificação para a fila ABIS",
+		"RPR-AMW-SUCCESS-002": "Resposta de sucesso recebida do ABIS",
+		"RPR-AMW-FAILED-002": "Resposta de falha recebida do ABIS",
+		"RPR-UIN-FAILED-004": "Falha na geração do UIN",
+		"RPR-UIN-FAILED-005": "Falha na atualização dos dados do UIN",
+		"RPR-UIN-FAILED-006": "Falha na reativação do UIN",
+		"RPR-UIN-FAILED-007": "Falha na desativação do UIN",
+		"RPR-UIN-FAILED-008": "UIN não encontrado para o RID correspondente",
+		"RPR-SEN-SUCCESS-001": "Notificação recebida na zona segura",
+		"RPR-RGS-034": "A pesquisa entre datas deve ser inferior a 30 dias",
+		"KER-MSD-394": "Seu mapeamento de zona está ausente. Entre em contato com o administrador.",
+		"ADM-AVD-001": "Ocorreu um erro técnico ao recuperar os dados. Tente novamente mais tarde.",
+		"ADM-AVD-002": "RID inválido",
+		"ADM-AVD-003": "O cartão para este ID de requisição não foi gerado. Verifique o status do ID.",
+		"ADM-AVD-004": "Foto do requerente não encontrada",
+		"ADM-AVD-005": "Cartão digital não encontrado para o RID. Tente novamente após alguns dias",
+		"ADM-AVD-006": "Por favor, confirme os detalhes antes de baixar o cartão digital",
+		"ADM-AVD-007": "ID de requisição não encontrado",
+		"ADM-AVD-008": "Seu limite diário de pesquisa foi excedido. Tente novamente amanhã.",
+		"ADM-AVD-009": "O uso de compartilhamento de dados expirou",
+		"ADM-AVD-509": "RID não encontrado",
+		"ADM-AVD-510": "Limite de pesquisa do requerente excedido",
+		"ADM-AVD-511": "ID de requisição não encontrado",
+		"KER-USR-025": "O mapeamento de centro está ausente. O usuário não pode ser ativado.",
+		"KER-MSD-281": "Número inválido de quiosques"
+	}
+}
