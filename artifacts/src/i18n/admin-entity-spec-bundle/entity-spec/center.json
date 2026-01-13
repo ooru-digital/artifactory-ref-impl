@@ -7,7 +7,8 @@
       "fra": "déclencher",
       "tam": "செயல்படுத்த",
       "hin": "सक्रिय",
-      "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ"
+      "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
+	  "por": "Ativar"
     },
     "actionURL": "",
     "redirectURL": "",
@@ -22,7 +23,8 @@
         "fra": "désactiver",
         "tam": "செயலிழக்க",
         "hin": "निष्क्रिय करें",
-        "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
+        "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
+		"por": "Desativar"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -37,8 +39,8 @@
         "fra": "mettre hors service",
         "tam": "நீக்கம்",
         "hin": "डीकमिशन",
-        "kan": "ಡಿಕೊಮಿಷನ್"
-
+        "kan": "ಡಿಕೊಮಿಷನ್",
+		"por": "Descomissionar"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -53,7 +55,8 @@
         "fra": "modifier",
         "tam": "தொகு",
         "hin": "संपादित करें",
-        "kan": "ತಿದ್ದು"
+        "kan": "ತಿದ್ದು",
+		"por": "Editar"
       },
       "actionURL": "",
       "redirectURL": "/admin/resources/centers/single-view/$id",
@@ -68,7 +71,8 @@
         "fra": "Ajouter le centre",
         "tam": "மையத்தை உருவாக்கவும்",
         "hin": "केंद्र बनाएं",
-        "kan": "ಕೇಂದ್ರವನ್ನು ರಚಿಸಿ"
+        "kan": "ಕೇಂದ್ರವನ್ನು ರಚಿಸಿ",
+		"por": "Criar Centro"
       },
       "imagePath": "assets/images/add-icon.png",
       "actionListType": "redirect",
@@ -84,7 +88,8 @@
         "fra": "filtre",
         "tam": "வடிகட்டி",
         "hin": "फ़िल्टर",
-        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ"
+        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ",
+		"por": "Filtrar"
       },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
@@ -102,7 +107,8 @@
         "fra": "Centres non disponibles en anglais",
         "tam": "மையங்கள் ஆங்கிலத்தில் கிடைக்கவில்லை",
         "hin": "केंद्र अंग्रेजी में उपलब्ध नहीं हैं",
-        "kan": "ಕೇಂದ್ರಗಳು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ"
+        "kan": "ಕೇಂದ್ರಗಳು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ",
+		"por": "Centros não disponíveis em Português"
       },
       "imagePath": "",
       "actionListType": "action",
@@ -114,7 +120,8 @@
           "fra": "Centres non disponibles en anglais",
           "tam": "மையங்கள் ஆங்கிலத்தில் கிடைக்கவில்லை",
           "hin": "केंद्र अंग्रेजी में उपलब्ध नहीं हैं",
-          "kan": "ಕೇಂದ್ರಗಳು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ"
+          "kan": "ಕೇಂದ್ರಗಳು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ",
+		  "por": "Centros não disponíveis em Português"
         },
         "columnNames": [{
           "eng": "Center Id",
@@ -122,14 +129,16 @@
           "fra": "Identifiant du centre",
           "tam": "மைய ஐடி",
           "hin": "केंद्र आईडी",
-          "kan": "ಸೆಂಟರ್ ಐಡಿ"
+          "kan": "ಸೆಂಟರ್ ಐಡಿ",
+		  "por": "ID do Centro"
         }, {
           "eng": "Center Name",
           "ara": "اسم المركز",
           "fra": "Nom du centre",
           "tam": "மையத்தின் பெயர்",
           "hin": "केंद्र का नाम",
-          "kan": "ಕೇಂದ್ರದ ಹೆಸರು"
+          "kan": "ಕೇಂದ್ರದ ಹೆಸರು",
+		  "por": "Nome do Centro"
         }],
         "fieldName": "name"
       },
@@ -147,7 +156,8 @@
       "fra": "Centre",
       "tam": "மையம்",
       "hin": "केंद्र",
-      "kan": "ಕೇಂದ್ರ"
+      "kan": "ಕೇಂದ್ರ",
+	  "por": "Centro"
     },
     "sortOrder": "3",
     "showAsLink": "",
@@ -163,7 +173,8 @@
         "fra": "Type de centre",
         "tam": "மைய வகை",
         "hin": "केंद्र प्रकार",
-        "kan": "ಕೇಂದ್ರ ಪ್ರಕಾರ"
+        "kan": "ಕೇಂದ್ರ ಪ್ರಕಾರ",
+		"por": "Tipo de Centro"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -180,7 +191,8 @@
         "fra": "Utilisateur",
         "tam": "பயனர்கள்",
         "hin": "उपयोगकर्ता",
-        "kan": "ಬಳಕೆದಾರರು"
+        "kan": "ಬಳಕೆದಾರರು",
+		"por": "Usuários"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -196,7 +208,8 @@
         "fra": "Dispositifs",
         "tam": "சாதனங்கள்",
         "hin": "उपकरण",
-        "kan": "ಸಾಧನಗಳು"
+        "kan": "ಸಾಧನಗಳು",
+		"por": "Dispositivos"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -212,7 +225,8 @@
         "fra": "Machines",
         "tam": "இயந்திரங்கள்",
         "hin": "मशीनों",
-        "kan": "ಯಂತ್ರಗಳು"
+        "kan": "ಯಂತ್ರಗಳು",
+		"por": "Máquinas"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -228,7 +242,8 @@
         "fra": "Téléphone Contact",
         "tam": "தொலைபேசியைத் தொடர்பு கொள்ளுங்கள்",
         "hin": "संपर्क फ़ोन",
-        "kan": "ಫೋನ್ ಸಂಪರ್ಕಿಸಿ"
+        "kan": "ಫೋನ್ ಸಂಪರ್ಕಿಸಿ",
+		"por": "Telefone de Contato"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -244,7 +259,8 @@
         "fra": "Personne-ressource",
         "tam": "நபரைத் தொடர்பு கொள்ளுங்கள்",
         "hin": "संपर्क व्यक्ति",
-        "kan": "ವ್ಯಕ್ತಿಯನ್ನು ಸಂಪರ್ಕಿಸಿ"
+        "kan": "ವ್ಯಕ್ತಿಯನ್ನು ಸಂಪರ್ಕಿಸಿ",
+		"por": "Pessoa de Contato"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -260,7 +276,8 @@
         "fra": "Temps créé",
         "tam": "Created Time",
         "hin": "बनाया गया समय",
-        "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ"
+        "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ",
+		"por": "Hora de Criação"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -276,7 +293,8 @@
         "fra": "Statut",
         "tam": "நிலை",
         "hin": "स्थिति",
-        "kan": "ಸ್ಥಿತಿ"
+        "kan": "ಸ್ಥಿತಿ",
+		"por": "Status"
       },
       "sortOrder": "",
       "showAsLink": "false",
@@ -298,7 +316,8 @@
       "fra": "Centre",
       "tam": "மையம்",
       "hin": "केंद्र",
-      "kan": "ಕೇಂದ್ರ"
+      "kan": "ಕೇಂದ್ರ",
+	  "por": "Centro"
     },
     "filterType": "equals",
     "fieldType": "input",
@@ -317,7 +336,8 @@
         "fra": "Type de centre",
         "tam": "மைய வகை",
         "hin": "केंद्र प्रकार",
-        "kan": "ಕೇಂದ್ರ ಪ್ರಕಾರ"
+        "kan": "ಕೇಂದ್ರ ಪ್ರಕಾರ",
+		"por": "Tipo de Centro"
       },
       "filterType": "contains",
       "fieldType": "mat-select",
@@ -336,7 +356,8 @@
         "fra": "Le code d'emplacement",
         "tam": "இருப்பிடக் குறியீடு",
         "hin": "स्थान कोड",
-        "kan": "ಸ್ಥಳ ಕೋಡ್"
+        "kan": "ಸ್ಥಳ ಕೋಡ್",
+		"por": "Código de localização"
       },
       "filterType": "contains",
       "fieldType": "mat-select",
@@ -355,7 +376,8 @@
         "fra": "Statut",
         "tam": "நிலை",
         "hin": "स्थिति",
-        "kan": "ಸ್ಥಿತಿ"
+        "kan": "ಸ್ಥಿತಿ",
+		"por": "Status"
       },
       "filterType": "contains",
       "fieldType": "input",
