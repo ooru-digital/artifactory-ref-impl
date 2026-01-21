@@ -19,8 +19,8 @@ apt-get update -y && \
 apt-get install -y --no-install-recommends unzip wget zip openjdk-11-jdk && \
 groupadd -g ${container_user_gid} ${container_user_group} &&\
 rm -rf /var/lib/apt/lists/* &&\
-wget https://dlcdn.apache.org/maven/maven-3/3.8.8/binaries/apache-maven-3.8.8-bin.tar.gz &&\
-tar -xzf apache-maven-3.8.8-bin.tar.gz && mv apache-maven-3.8.8 /usr/local/maven && rm apache-maven-3.8.8-bin.tar.gz &&\
+wget https://dlcdn.apache.org/maven/maven-3/3.8.9/binaries/apache-maven-3.8.9-bin.tar.gz &&\
+tar -xzf apache-maven-3.8.9-bin.tar.gz && mv apache-maven-3.8.9 /usr/local/maven && rm apache-maven-3.8.9-bin.tar.gz &&\
 useradd -u ${container_user_uid} -g ${container_user_group} -s /bin/sh -m ${container_user} \
 && mkdir -p /var/run/nginx /var/tmp/nginx \
 && chown -R ${container_user}:${container_user} /usr/share/nginx /var/run/nginx /var/tmp/nginx
@@ -48,9 +48,6 @@ ENV demosdk_zip_path=${base_path}/libs-release-local/demosdk/default/
 # environment variable for Biosdk lib Zip path
 ENV biosdk_lib_zip_path=${base_path}/libs-release-local/biosdk/
 
-# environment variable for Biosdk lib Zip path
-ENV jpegsdk_lib_zip_path=${base_path}/libs-release-local/jpeg-sdk/
-
 # environment variable for Cache Provider Jar path
 ENV cache_path=${base_path}/libs-release-local/cache
 
@@ -65,9 +62,6 @@ ENV mosip_plugins_zip_path=${base_path}/libs-release-local/mosip-plugins
 
 # environment valiable for sdk jar
 ENV sdk_path=${base_path}/libs-release-local/mock-sdk/1.1.5/
-
-# environment valiable for sdk jar
-ENV jpeg_sdk_path=${base_path}/libs-release-local/jpeg-mock-sdk/1.1.5/
 
 # environment valiable for image-compressor jar
 ENV image_compressor_path=${base_path}/libs-release-local/compressor/
@@ -117,7 +111,7 @@ ENV version=1.2.1-SNAPSHOT
 ENV idp_auth_wrapper_version=0.0.1-SNAPSHOT
 
 # Create all the jar, i18n & theme paths.
-RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${mosip_plugins_zip_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${image_compressor_path}/image-compressor ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path} ${theme_zip_path} ${child_auth_filter_jar_path} ${base_path}/libs-release-local/reg-client ${scripts_path} ${master_template_path} ${jpeg_sdk_path} ${jpegsdk_lib_zip_path}/jpeg-sdk-lib/ ${idp_auth_wrapper_lib_zip_path} ${esignet_wrapper_lib_zip_path}/esignet-wrapper
+RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${mosip_plugins_zip_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${image_compressor_path}/image-compressor ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path} ${theme_zip_path} ${child_auth_filter_jar_path} ${base_path}/libs-release-local/reg-client ${scripts_path} ${master_template_path} ${idp_auth_wrapper_lib_zip_path} ${esignet_wrapper_lib_zip_path}/esignet-wrapper
 
 # Copy all the respective jars to the location
 
