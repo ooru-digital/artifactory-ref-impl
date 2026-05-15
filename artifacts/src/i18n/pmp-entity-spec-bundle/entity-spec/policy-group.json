@@ -1,13 +1,18 @@
 {
-	"auditEventIds": ["ADM-028", "ADM-028"],
-	"actionButtons": [{
+	"auditEventIds": [
+		"ADM-028",
+		"ADM-028"
+	],
+	"actionButtons": [
+		{
 			"buttonName": {
 				"eng": "Activate",
 				"ara": "تفعيل",
 				"fra": "Activer",
 				"hin": "सक्रिय",
 				"kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
-				"tam": "செயல்படுத்த"
+				"tam": "செயல்படுத்த",
+				"por": "Ativar"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -22,7 +27,8 @@
 				"fra": "Désactiver",
 				"hin": "निष्क्रिय करें",
 				"kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
-				"tam": "செயலிழக்கச் செய்"
+				"tam": "செயலிழக்கச் செய்",
+				"por": "Desativar"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -37,7 +43,8 @@
 				"fra": "Éditer",
 				"hin": "संपादन करना",
 				"kan": "ತಿದ್ದು",
-				"tam": "தொகு"
+				"tam": "தொகு",
+				"por": "Editar"
 			},
 			"actionURL": "",
 			"redirectURL": "/pmp/resources/policygroup/single-view/$id",
@@ -52,7 +59,8 @@
 				"fra": "Créer un groupe de stratégies",
 				"hin": "नीति समूह बनाएं",
 				"kan": "ನೀತಿ ಗುಂಪನ್ನು ರಚಿಸಿ",
-				"tam": "கொள்கை குழுவை உருவாக்கவும்"
+				"tam": "கொள்கை குழுவை உருவாக்கவும்",
+				"por": "Criar Grupo de Políticas"
 			},
 			"imagePath": "assets/images/add-icon.png",
 			"actionListType": "redirect",
@@ -68,7 +76,8 @@
 				"fra": "Filtre",
 				"hin": "फ़िल्टर",
 				"kan": "ಫಿಲ್ಟರ್",
-				"tam": "வடிகட்டி"
+				"tam": "வடிகட்டி",
+				"por": "Filtrar"
 			},
 			"imagePath": "assets/images/filter.png",
 			"actionListType": "action",
@@ -80,7 +89,8 @@
 			"validations": ""
 		}
 	],
-	"columnsToDisplay": [{
+	"columnsToDisplay": [
+		{
 			"name": "id",
 			"label": {
 				"eng": "ID",
@@ -88,7 +98,8 @@
 				"fra": "IDENTIFIANT",
 				"hin": "पहचान",
 				"kan": "ಐಡಿ",
-				"tam": "ஐடி"
+				"tam": "ஐடி",
+				"por": "ID"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -107,7 +118,8 @@
 				"fra": "Nom",
 				"hin": "नाम",
 				"kan": "ಹೆಸರು",
-				"tam": "பெயர்"
+				"tam": "பெயர்",
+				"por": "Nome"
 			},
 			"sortOrder": "3",
 			"showAsLink": "",
@@ -127,7 +139,8 @@
 				"fra": "La description",
 				"hin": "विवरण",
 				"kan": "ವಿವರಣೆ",
-				"tam": "விளக்கம்"
+				"tam": "விளக்கம்",
+				"por": "Descrição"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -147,7 +160,8 @@
 				"fra": "Statut",
 				"hin": "दर्जा",
 				"kan": "ಸ್ಥಿತಿ",
-				"tam": "நிலை"
+				"tam": "நிலை",
+				"por": "Status"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -162,17 +176,25 @@
 	"paginator": {
 		"totalEntries": null,
 		"pageSize": "10",
-		"pageSizeList": [10, 20, 30, 40, 50]
+		"pageSizeList": [
+			10,
+			20,
+			30,
+			40,
+			50
+		]
 	},
-	"filterColumns": [{
+	"filterColumns": [
+		{
 			"filtername": "name",
 			"filterlabel": {
-				"eng": "Name",                                
-"ara": "اسم",                               
-"fra": "Nom",                               
-"hin": "नाम",                                
-"kan": "ಹೆಸರು",                              
-"tam": "பெயர்"
+				"eng": "Name",
+				"ara": "اسم",
+				"fra": "Nom",
+				"hin": "नाम",
+				"kan": "ಹೆಸರು",
+				"tam": "பெயர்",
+				"por": "Nome"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
@@ -187,11 +209,12 @@
 			"filtername": "desc",
 			"filterlabel": {
 				"eng": "Description",
-"ara": "وصف",
-"fra": "La description",
-"hin": "विवरण",
-"kan": "ವಿವರಣೆ",
-"tam": "விளக்கம்"
+				"ara": "وصف",
+				"fra": "La description",
+				"hin": "विवरण",
+				"kan": "ವಿವರಣೆ",
+				"tam": "விளக்கம்",
+				"por": "Descrição"
 			},
 			"filterType": "equals",
 			"fieldType": "input",

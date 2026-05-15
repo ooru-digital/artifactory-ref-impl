@@ -1,5 +1,8 @@
 {
-	"auditEventIds": ["ADM-027", "ADM-049"],
+	"auditEventIds": [
+		"ADM-027",
+		"ADM-049"
+	],
 	"actionButtons": [
 		{
 			"buttonName": {
@@ -8,7 +11,8 @@
 				"fra": "Télécharger le certificat",
 				"hin": "प्रमाणपत्र अपलोड करें",
 				"kan": "ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-				"tam": "சான்றிதழை பதிவேற்றவும்"
+				"tam": "சான்றிதழை பதிவேற்றவும்",
+				"por": "Carregar Certificado"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -23,7 +27,8 @@
 				"fra": "Afficher le certificat",
 				"hin": "प्रमाणपत्र देखें",
 				"kan": "ಪ್ರಮಾಣಪತ್ರವನ್ನು ವೀಕ್ಷಿಸಿ",
-				"tam": "சான்றிதழைப் பார்க்கவும்"
+				"tam": "சான்றிதழைப் பார்க்கவும்",
+				"por": "Visualizar Certificado"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -38,7 +43,8 @@
 				"fra": "Activer",
 				"hin": "सक्रिय",
 				"kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
-				"tam": "செயல்படுத்த"
+				"tam": "செயல்படுத்த",
+				"por": "Ativar"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -53,7 +59,8 @@
 				"fra": "Désactiver",
 				"hin": "निष्क्रिय करें",
 				"kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
-				"tam": "செயலிழக்கச் செய்"
+				"tam": "செயலிழக்கச் செய்",
+				"por": "Desativar"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -68,7 +75,8 @@
 				"fra": "Éditer",
 				"hin": "संपादन करना",
 				"kan": "ತಿದ್ದು",
-				"tam": "தொகு"
+				"tam": "தொகு",
+				"por": "Editar"
 			},
 			"actionURL": "",
 			"redirectURL": "pmp/resources/ftmdetails/single-view/$id",
@@ -83,7 +91,8 @@
 				"fra": "Créer un appareil",
 				"hin": "डिवाइस बनाएं",
 				"kan": "ಸಾಧನವನ್ನು ರಚಿಸಿ",
-				"tam": "சாதனத்தை உருவாக்கவும்"
+				"tam": "சாதனத்தை உருவாக்கவும்",
+				"por": "Criar Dispositivo"
 			},
 			"imagePath": "assets/images/add-icon.png",
 			"actionListType": "redirect",
@@ -99,7 +108,8 @@
 				"fra": "Filtre",
 				"hin": "फ़िल्टर",
 				"kan": "ಫಿಲ್ಟರ್",
-				"tam": "வடிகட்டி"
+				"tam": "வடிகட்டி",
+				"por": "Filtrar"
 			},
 			"imagePath": "assets/images/filter.png",
 			"actionListType": "action",
@@ -111,7 +121,8 @@
 			"validations": ""
 		}
 	],
-	"columnsToDisplay": [{
+	"columnsToDisplay": [
+		{
 			"name": "ftpChipDetailId",
 			"label": {
 				"eng": "ID",
@@ -119,7 +130,8 @@
 				"fra": "IDENTIFIANT",
 				"hin": "पहचान",
 				"kan": "ಐಡಿ",
-				"tam": "ஐடி"
+				"tam": "ஐடி",
+				"por": "ID"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -138,7 +150,8 @@
 				"fra": "Nom du partenaire",
 				"hin": "साथी का नाम",
 				"kan": "ಪಾಲುದಾರರ ಹೆಸರು",
-				"tam": "கூட்டாளர் பெயர்"
+				"tam": "கூட்டாளர் பெயர்",
+				"por": "Nome do Parceiro"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -157,7 +170,8 @@
 				"fra": "nom de l'organisation",
 				"hin": "संगठन का नाम",
 				"kan": "ಸಂಸ್ಥೆಯ ಹೆಸರು",
-				"tam": "நிறுவன பெயர்"
+				"tam": "நிறுவன பெயர்",
+				"por": "Nome da Organização"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -176,7 +190,8 @@
 				"fra": "Faire, construire",
 				"hin": "बनाना",
 				"kan": "ಮಾಡಿ",
-				"tam": "செய்ய"
+				"tam": "செய்ய",
+				"por": "Fabricante"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -196,7 +211,8 @@
 				"fra": "Modèle",
 				"hin": "नमूना",
 				"kan": "ಮಾದರಿ",
-				"tam": "மாதிரி"
+				"tam": "மாதிரி",
+				"por": "Modelo"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -217,7 +233,8 @@
 				"fra": "Statut",
 				"hin": "दर्जा",
 				"kan": "ಸ್ಥಿತಿ",
-				"tam": "நிலை"
+				"tam": "நிலை",
+				"por": "Status"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -228,18 +245,26 @@
 	"paginator": {
 		"totalEntries": null,
 		"pageSize": "10",
-		"pageSizeList": [10, 20, 30, 40, 50]
+		"pageSizeList": [
+			10,
+			20,
+			30,
+			40,
+			50
+		]
 	},
-	"filterColumns": [{
+	"filterColumns": [
+		{
 			"filtername": "ftpProviderId",
-			"filterlabel": {                    
-                                "eng": "Partner Name",
-                                "ara": "اسم شريك",
-                                "fra": "Nom du partenaire",
-                                "hin": "साथी का नाम",
-                                "kan": "ಪಾಲುದಾರ ಹೆಸರು",
-                                "tam": "கூட்டாளர் பெயர்"
-                        },
+			"filterlabel": {
+				"eng": "Partner Name",
+				"ara": "اسم شريك",
+				"fra": "Nom du partenaire",
+				"hin": "साथी का नाम",
+				"kan": "ಪಾಲುದಾರ ಹೆಸರು",
+				"tam": "கூட்டாளர் பெயர்",
+				"por": "Nome do Parceiro"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -253,12 +278,13 @@
 			"filtername": "partnerOrganizationName",
 			"filterlabel": {
 				"eng": "Organization Name",
-                                "ara": "اسم المنظمة",
-                                "fra": "nom de l'organisation",
-                                "hin": "संगठन का नाम",
-                                "kan": "ಸಂಸ್ಥೆಯ ಹೆಸರು",
-                                "tam": "நிறுவன பெயர்"
-								},
+				"ara": "اسم المنظمة",
+				"fra": "nom de l'organisation",
+				"hin": "संगठन का नाम",
+				"kan": "ಸಂಸ್ಥೆಯ ಹೆಸರು",
+				"tam": "நிறுவன பெயர்",
+				"por": "Nome da Organização"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -272,13 +298,13 @@
 			"filtername": "make",
 			"filterlabel": {
 				"eng": "Make",
-                                "ara": "يجعلون",
-                                "fra": "Faire, construire",
-                                "hin": "बनाना",
-                                "kan": "ಮಾಡಿ",
-                                "tam": "செய்ய"
+				"ara": "يجعلون",
+				"fra": "Faire, construire",
+				"hin": "बनाना",
+				"kan": "ಮಾಡಿ",
+				"tam": "செய்ய",
+				"por": "Fabricante"
 			},
-			
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -291,12 +317,13 @@
 		{
 			"filtername": "model",
 			"filterlabel": {
-				 "eng": "Model",
-                                "ara": "نموذج",
-                                "fra": "Modèle",
-                                "hin": "नमूना",
-                                "kan": "ಮಾದರಿ",
-                                "tam": "மாதிரி"
+				"eng": "Model",
+				"ara": "نموذج",
+				"fra": "Modèle",
+				"hin": "नमूना",
+				"kan": "ಮಾದರಿ",
+				"tam": "மாதிரி",
+				"por": "Modelo"
 			},
 			"filterType": "equals",
 			"fieldType": "input",

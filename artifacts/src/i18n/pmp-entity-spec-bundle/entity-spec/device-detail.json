@@ -1,13 +1,18 @@
 {
-	"auditEventIds": ["ADM-027", "ADM-049"],
-	"actionButtons": [{
+	"auditEventIds": [
+		"ADM-027",
+		"ADM-049"
+	],
+	"actionButtons": [
+		{
 			"buttonName": {
 				"eng": "Approve",
 				"ara": "يوافق",
 				"fra": "Approuver",
 				"hin": "मंज़ूरी देना",
 				"kan": "ಅನುಮೋದಿಸಿ",
-				"tam": "ஒப்புதல்"
+				"tam": "ஒப்புதல்",
+				"por": "Aprovar"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -22,7 +27,8 @@
 				"fra": "Rejeter",
 				"hin": "अस्वीकार",
 				"kan": "ತಿರಸ್ಕರಿಸಿ",
-				"tam": "நிராகரிக்கவும்"
+				"tam": "நிராகரிக்கவும்",
+				"por": "Rejeitar"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -37,7 +43,8 @@
 				"fra": "Éditer",
 				"hin": "संपादन करना",
 				"kan": "ತಿದ್ದು",
-				"tam": "தொகு"
+				"tam": "தொகு",
+				"por": "Editar"
 			},
 			"actionURL": "",
 			"redirectURL": "/pmp/resources/devicedetails/single-view/$id",
@@ -52,7 +59,8 @@
 				"fra": "Créer un appareil",
 				"hin": "डिवाइस बनाएं",
 				"kan": "ಸಾಧನವನ್ನು ರಚಿಸಿ",
-				"tam": "சாதனத்தை உருவாக்கவும்"
+				"tam": "சாதனத்தை உருவாக்கவும்",
+				"por": "Criar Dispositivo"
 			},
 			"imagePath": "assets/images/add-icon.png",
 			"actionListType": "redirect",
@@ -68,7 +76,8 @@
 				"fra": "Filtre",
 				"hin": "फ़िल्टर",
 				"kan": "ಫಿಲ್ಟರ್",
-				"tam": "வடிகட்டி"
+				"tam": "வடிகட்டி",
+				"por": "Filtrar"
 			},
 			"imagePath": "assets/images/filter.png",
 			"actionListType": "action",
@@ -80,7 +89,8 @@
 			"validations": ""
 		}
 	],
-	"columnsToDisplay": [{
+	"columnsToDisplay": [
+		{
 			"name": "id",
 			"label": {
 				"eng": "ID",
@@ -88,7 +98,8 @@
 				"fra": "IDENTIFIANT",
 				"hin": "पहचान",
 				"kan": "ಐಡಿ",
-				"tam": "ஐடி"
+				"tam": "ஐடி",
+				"por": "ID"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -107,7 +118,8 @@
 				"fra": "Nom du partenaire",
 				"hin": "साथी का नाम",
 				"kan": "ಪಾಲುದಾರರ ಹೆಸರು",
-				"tam": "கூட்டாளர் பெயர்"
+				"tam": "கூட்டாளர் பெயர்",
+				"por": "Nome do Parceiro"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -126,7 +138,8 @@
 				"fra": "nom de l'organisation",
 				"hin": "संगठन का नाम",
 				"kan": "ಸಂಸ್ಥೆಯ ಹೆಸರು",
-				"tam": "நிறுவன பெயர்"
+				"tam": "நிறுவன பெயர்",
+				"por": "Nome da Organização"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -145,7 +158,8 @@
 				"fra": "Type d'appareil",
 				"hin": "उपकरण का प्रकार",
 				"kan": "ಸಾಧನದ ಪ್ರಕಾರ",
-				"tam": "கருவியின் வகை"
+				"tam": "கருவியின் வகை",
+				"por": "Tipo de Dispositivo"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -164,7 +178,8 @@
 				"fra": "Sous-type de périphérique",
 				"hin": "डिवाइस उप प्रकार",
 				"kan": "ಸಾಧನದ ಉಪ ಪ್ರಕಾರ",
-				"tam": "சாதனத்தின் துணை வகை"
+				"tam": "சாதனத்தின் துணை வகை",
+				"por": "Subtipo de Dispositivo"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -183,7 +198,8 @@
 				"fra": "Faire, construire",
 				"hin": "बनाना",
 				"kan": "ಮಾಡಿ",
-				"tam": "செய்ய"
+				"tam": "செய்ய",
+				"por": "Fabricante"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -203,7 +219,8 @@
 				"fra": "Modèle",
 				"hin": "नमूना",
 				"kan": "ಮಾದರಿ",
-				"tam": "மாதிரி"
+				"tam": "மாதிரி",
+				"por": "Modelo"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -223,7 +240,8 @@
 				"fra": "ForRegistrationDevice",
 				"hin": "पंजीकरण के लिएडिवाइस",
 				"kan": "ನೋಂದಣಿ ಸಾಧನಕ್ಕಾಗಿ",
-				"tam": "பதிவு சாதனத்திற்காக"
+				"tam": "பதிவு சாதனத்திற்காக",
+				"por": "ParaDispositivoDeRegistro"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -243,7 +261,8 @@
 				"fra": "Statut",
 				"hin": "दर्जा",
 				"kan": "ಸ್ಥಿತಿ",
-				"tam": "நிலை"
+				"tam": "நிலை",
+				"por": "Status"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -254,18 +273,26 @@
 	"paginator": {
 		"totalEntries": null,
 		"pageSize": "10",
-		"pageSizeList": [10, 20, 30, 40, 50]
+		"pageSizeList": [
+			10,
+			20,
+			30,
+			40,
+			50
+		]
 	},
-	"filterColumns": [{
+	"filterColumns": [
+		{
 			"filtername": "deviceProviderId",
-			"filterlabel": {                        
-                                "eng": "Partner Name",
-                                "ara": "اسم شريك",
-                                "fra": "Nom du partenaire",
-                                "hin": "साथी का नाम",
-                                "kan": "ಪಾಲುದಾರ ಹೆಸರು",
-                                "tam": "கூட்டாளர் பெயர்"
-                        },
+			"filterlabel": {
+				"eng": "Partner Name",
+				"ara": "اسم شريك",
+				"fra": "Nom du partenaire",
+				"hin": "साथी का नाम",
+				"kan": "ಪಾಲುದಾರ ಹೆಸರು",
+				"tam": "கூட்டாளர் பெயர்",
+				"por": "Nome do Parceiro"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -277,14 +304,15 @@
 		},
 		{
 			"filtername": "partnerOrganizationName",
-			"filterlabel": {                        
-                                "eng": "Organization Name",
-                                "ara": "اسم المنظمة",
-                                "fra": "nom de l'organisation",
-                                "hin": "संगठन का नाम",
-                                "kan": "ಸಂಸ್ಥೆಯ ಹೆಸರು",
-                                "tam": "நிறுவன பெயர்"
-                        },
+			"filterlabel": {
+				"eng": "Organization Name",
+				"ara": "اسم المنظمة",
+				"fra": "nom de l'organisation",
+				"hin": "संगठन का नाम",
+				"kan": "ಸಂಸ್ಥೆಯ ಹೆಸರು",
+				"tam": "நிறுவன பெயர்",
+				"por": "Nome da Organização"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -296,14 +324,15 @@
 		},
 		{
 			"filtername": "deviceTypeCode",
-			"filterlabel": {                        
-                                "eng": "Device Type",
-                                "ara": "نوع الجهاز",
-                                "fra": "Type d'appareil",
-                                "hin": "उपकरण का प्रकार",
-                                "kan": "ಸಾಧನದ ಪ್ರಕಾರ",
-                                "tam": "கருவியின் வகை"
-                        },
+			"filterlabel": {
+				"eng": "Device Type",
+				"ara": "نوع الجهاز",
+				"fra": "Type d'appareil",
+				"hin": "उपकरण का प्रकार",
+				"kan": "ಸಾಧನದ ಪ್ರಕಾರ",
+				"tam": "கருவியின் வகை",
+				"por": "Tipo de Dispositivo"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -315,14 +344,15 @@
 		},
 		{
 			"filtername": "deviceSubTypeCode",
-			"filterlabel": {                        
-                                "eng": "Device Sub Type",
-                                "ara": "نوع الجهاز الفرعي",
-                                "fra": "Sous-type de périphérique",
-                                "hin": "डिवाइस उप प्रकार",
-                                "kan": "ಸಾಧನದ ಉಪ ಪ್ರಕಾರ",
-                                "tam": "சாதனத்தின் துணை வகை"
-                        },
+			"filterlabel": {
+				"eng": "Device Sub Type",
+				"ara": "نوع الجهاز الفرعي",
+				"fra": "Sous-type de périphérique",
+				"hin": "डिवाइस उप प्रकार",
+				"kan": "ಸಾಧನದ ಉಪ ಪ್ರಕಾರ",
+				"tam": "சாதனத்தின் துணை வகை",
+				"por": "Subtipo de Dispositivo"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -334,14 +364,15 @@
 		},
 		{
 			"filtername": "make",
-			"filterlabel": {                     
-                                "eng": "Make",
-                                "ara": "يجعلون",
-                                "fra": "Faire, construire",
-                                "hin": "बनाना",
-                                "kan": "ಮಾಡಿ",
-                                "tam": "செய்ய"
-                        },
+			"filterlabel": {
+				"eng": "Make",
+				"ara": "يجعلون",
+				"fra": "Faire, construire",
+				"hin": "बनाना",
+				"kan": "ಮಾಡಿ",
+				"tam": "செய்ய",
+				"por": "Fabricante"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",
@@ -353,14 +384,15 @@
 		},
 		{
 			"filtername": "model",
-			"filterlabel": {                        
-                                "eng": "Model",
-                                "ara": "نموذج",
-                                "fra": "Modèle",
-                                "hin": "नमूना",
-                                "kan": "ಮಾದರಿ",
-                                "tam": "மாதிரி"
-                        },
+			"filterlabel": {
+				"eng": "Model",
+				"ara": "نموذج",
+				"fra": "Modèle",
+				"hin": "नमूना",
+				"kan": "ಮಾದರಿ",
+				"tam": "மாதிரி",
+				"por": "Modelo"
+			},
 			"filterType": "equals",
 			"fieldType": "input",
 			"autocomplete": "false",

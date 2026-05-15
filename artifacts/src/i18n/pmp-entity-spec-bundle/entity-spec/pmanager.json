@@ -1,13 +1,18 @@
 {
-	"auditEventIds": ["ADM-030", "ADM-052"],
-	"actionButtons": [{
+	"auditEventIds": [
+		"ADM-030",
+		"ADM-052"
+	],
+	"actionButtons": [
+		{
 			"buttonName": {
 				"eng": "Activate Partner",
 				"ara": "تفعيل الشريك",
 				"fra": "تفعيل الشريك",
 				"hin": "भागीदार सक्रिय करें",
 				"kan": "ಪಾಲುದಾರರನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ",
-				"tam": "கூட்டாளரை செயல்படுத்தவும்"
+				"tam": "கூட்டாளரை செயல்படுத்தவும்",
+				"por": "Ativar Parceiro"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -22,7 +27,8 @@
 				"fra": "Désactiver le partenaire",
 				"hin": "साथी को निष्क्रिय करें",
 				"kan": "ಪಾಲುದಾರರನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
-				"tam": "பார்ட்னரை செயலிழக்கச் செய்யவும்"
+				"tam": "பார்ட்னரை செயலிழக்கச் செய்யவும்",
+				"por": "Desativar Parceiro"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -37,7 +43,8 @@
 				"fra": "Approuver ApikeyReq",
 				"hin": "ApikeyReq . को स्वीकृत करें",
 				"kan": "ApikeyReq ಅನ್ನು ಅನುಮೋದಿಸಿ",
-				"tam": "ApikeyReq ஐ அங்கீகரிக்கவும்"
+				"tam": "ApikeyReq ஐ அங்கீகரிக்கவும்",
+				"por": "Aprovar ApikeyReq"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -52,7 +59,8 @@
 				"fra": "Rejeter ApikeyReq",
 				"hin": "एपीकेरेक को अस्वीकार करें",
 				"kan": "ApikeyReq ಅನ್ನು ತಿರಸ್ಕರಿಸಿ",
-				"tam": "Apikey Req ஐ நிராகரி"
+				"tam": "Apikey Req ஐ நிராகரி",
+				"por": "Rejeitar ApikeyReq"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -67,7 +75,8 @@
 				"fra": "Désactiver la clé API",
 				"hin": "APIKey को निष्क्रिय करें",
 				"kan": "APIKey ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
-				"tam": "APIKey ஐ செயலிழக்கச் செய்யவும்"
+				"tam": "APIKey ஐ செயலிழக்கச் செய்யவும்",
+				"por": "Desativar APIKey"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -82,7 +91,8 @@
 				"fra": "Activer la clé API",
 				"hin": "एपीआई कुंजी सक्रिय करें",
 				"kan": "API ಕೀಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ",
-				"tam": "API விசையை இயக்கவும்"
+				"tam": "API விசையை இயக்கவும்",
+				"por": "Ativar APIKey"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -97,7 +107,8 @@
 				"fra": "Modifier la politique",
 				"hin": "नीति बदलें",
 				"kan": "ನೀತಿಯನ್ನು ಬದಲಾಯಿಸಿ",
-				"tam": "கொள்கையை மாற்றவும்"
+				"tam": "கொள்கையை மாற்றவும்",
+				"por": "Alterar Política"
 			},
 			"actionURL": "",
 			"redirectURL": "/pmp/resources/pmanager/single-view/$id",
@@ -106,7 +117,8 @@
 			"callBackFunction": "pmanagerEdit"
 		}
 	],
-	"columnsToDisplay": [{
+	"columnsToDisplay": [
+		{
 			"name": "partnerID",
 			"showInListView": "True",
 			"label": {
@@ -115,7 +127,8 @@
 				"fra": "ID partenaire",
 				"hin": "साथी आईडी",
 				"kan": "ಪಾಲುದಾರ ID",
-				"tam": "கூட்டாளர் ஐடி"
+				"tam": "கூட்டாளர் ஐடி",
+				"por": "ID do Parceiro"
 			},
 			"sortOrder": "3",
 			"showAsLink": "",
@@ -131,7 +144,8 @@
 				"fra": "Nom de la politique",
 				"hin": "पालिसी का नाम",
 				"kan": "ನೀತಿ ಹೆಸರು",
-				"tam": "கொள்கை பெயர்"
+				"tam": "கொள்கை பெயர்",
+				"por": "Nome da Política"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -147,7 +161,8 @@
 				"fra": "partenaireStatut",
 				"hin": "साथीस्थिति",
 				"kan": "ಪಾಲುದಾರರ ಸ್ಥಿತಿ",
-				"tam": "பங்குதாரர் நிலை"
+				"tam": "பங்குதாரர் நிலை",
+				"por": "Status do Parceiro"
 			},
 			"sortOrder": "",
 			"showAsLink": "false",
@@ -163,7 +178,8 @@
 				"fra": "ID de demande de clé API",
 				"hin": "एपीआई कुंजी अनुरोध आईडी",
 				"kan": "api ಕೀ ವಿನಂತಿ ID",
-				"tam": "api விசை கோரிக்கை ஐடி"
+				"tam": "api விசை கோரிக்கை ஐடி",
+				"por": "ID da Solicitação de Chave API"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -179,7 +195,8 @@
 				"fra": "apikeyReqIDStatus",
 				"hin": "apikeyReqIDस्थिति",
 				"kan": "apikeyReqID ಸ್ಥಿತಿ",
-				"tam": "apikeyReqIDநிலை"
+				"tam": "apikeyReqIDநிலை",
+				"por": "Status do ID da Solicitação de Chave API"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -195,7 +212,8 @@
 				"fra": "partenaireAPIKey",
 				"hin": "पार्टनरAPIKey",
 				"kan": "ಪಾಲುದಾರAPIKey",
-				"tam": "கூட்டாளர்APIKey"
+				"tam": "கூட்டாளர்APIKey",
+				"por": "Chave API do Parceiro"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -211,7 +229,8 @@
 				"fra": "partenaireAPIKeyStatus",
 				"hin": "पार्टनरAPIKeyस्थिति",
 				"kan": "ಪಾಲುದಾರAPIKeyStatus",
-				"tam": "கூட்டாளர்APKeyStatus"
+				"tam": "கூட்டாளர்APKeyStatus",
+				"por": "Status da Chave API do Parceiro"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -222,9 +241,16 @@
 	"paginator": {
 		"totalEntries": null,
 		"pageSize": "10",
-		"pageSizeList": [10, 20, 30, 40, 50]
+		"pageSizeList": [
+			10,
+			20,
+			30,
+			40,
+			50
+		]
 	},
-	"filterColumns": [{
+	"filterColumns": [
+		{
 			"filtername": "partnerID",
 			"filterlabel": "partnerID",
 			"filterType": "contains",

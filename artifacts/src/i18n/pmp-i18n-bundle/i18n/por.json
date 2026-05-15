@@ -1,0 +1,598 @@
+{
+  "menuItems": {
+    "item1": {
+      "title": "INÍCIO"
+    },
+    "item2": {
+      "title": "Política",
+      "subItem1": "Grupo de Políticas",
+      "subItem2": "Política de Autenticação",
+      "subItem3": "Política de Compartilhamento de Dados"
+    },
+    "item3": {
+      "title": "Parceiro"
+    },
+    "item4": {
+      "title": "Detalhes do Dispositivo"
+    },
+    "item5": {
+      "title": "Detalhes do FTM"
+    },
+    "item6": {
+      "title": "Detalhes do SBI"
+    },
+    "item7": {
+      "title": "Mapeamento de Política de Parceiro"
+    },
+    "item8": {
+      "title": "Carregar Certificado CA"
+    }
+  },
+  "dashboard": {
+    "welcomeMessage": "Bem-vindo ao Portal de Parceiros Mosip!",
+    "Logout": "Sair"
+  },
+  "singleView": {
+    "errorMessages": ["Nenhum registro encontrado", "Ocorreu um erro técnico"],
+    "buttonText": "OK",
+    "title": "Erro"
+  },
+  "masterData": {
+    "master-data": "Dados Mestre",
+    "total-no": "Número Total",
+    "common": "Comum",
+    "device-definition": "Definição de Dispositivo",
+    "machine-definition": "Definição de Máquina",
+    "document-definition": "Definição de Documento",
+    "doc-category-mapping": "Mapeamento de Categoria - Tipo de Documento",
+    "category": "Categoria",
+    "mapped-documents": "Documentos Mapeados",
+    "unmapped-documents": "Documentos Não Mapeados"
+  },
+  "pmanager": {
+    "status": "Status",
+    "language": "Inglês",
+    "edit": "Editar",
+    "create": "Criar",
+    "cancel": "Cancelar",
+    "keyboard-tooltip": "Clique para Teclado Virtual (Inglês)",
+    "update": "Atualizar",
+    "created-on": "Criado Em",
+    "created-by": "Criado Por",
+    "updated-on": "Atualizado Em",
+    "updated-by": "Atualizado Por",
+    "header": "Alterar Política",
+    "name": "Nome da Política",
+    "popupMessages": {
+      "create": {
+        "title": "Confirmação",
+        "message": [
+          "Você está prestes a criar um Centro de Registro em ",
+          ". Certifique-se de que todas as informações estão corretas. O ID do Centro será gerado após a confirmação"
+        ],
+        "yesBtnText": "Sim",
+        "noBtnText": "Não",
+        "mandatorySecondaryFields": "Você não preencheu os dados obrigatórios no idioma Secundário. O Centro de Registro será criado apenas no idioma Primário. Deseja continuar mesmo assim?"
+      },
+      "edit": {
+        "title": "Confirmação",
+        "message": "Você está prestes a atualizar um Centro de Registro. Certifique-se de que todas as informações estão corretas",
+        "yesBtnText": "Confirmar",
+        "noBtnText": "Cancelar",
+        "mandatorySecondaryFields": "Você não preencheu os dados obrigatórios no idioma Secundário. O Centro de Registro será criado apenas no idioma Primário. Deseja continuar mesmo assim?"
+      },
+      "update-success": {
+        "title": "Sucesso",
+        "message": "Parceiro atualizado com sucesso",
+        "btnTxt": "Ok"
+      },
+      "update-error": {
+        "title": "Erro",
+        "message": "Houve um problema ao atualizar o Parceiro. Por favor, tente novamente",
+        "btnTxt": "Ok"
+      },
+      "create-success": {
+        "title": "Sucesso",
+        "message": [
+          "Parceiro criado com sucesso com ID do Parceiro: ",
+          " e Nome do Parceiro: "
+        ],
+        "btnTxt": "Ok"
+      },
+      "create-error": {
+        "title": "Erro",
+        "message": "Houve um problema ao criar o Parceiro. Por favor, tente novamente",
+        "btnTxt": "Ok"
+      },
+      "navigation-popup": {
+        "title": "Confirmação",
+        "message": "Tem certeza de que deseja sair desta página? Quaisquer dados não salvos serão perdidos.",
+        "yesBtnTxt": "Sair",
+        "noBtnTxt": "Ficar"
+      },
+      "noData": {
+        "title": "Erro",
+        "message": "Nenhum Dado Encontrado",
+        "btnTxt": "Ok"
+      }
+    }
+  },
+  "partner": {
+    "address1": "Endereço",
+    "header": "Serviço de Parceiro",
+    "name": "Organização",
+    "id": "Id",
+    "status": "Status",
+    "language": "Inglês",
+    "edit": "Editar",
+    "create": "Criar",
+    "cancel": "Cancelar",
+    "keyboard-tooltip": "Clique para Teclado Virtual (Inglês)",
+    "update": "Atualizar",
+    "partner-details": "Detalhes do Parceiro",
+    "created-on": "Criado Em",
+    "created-by": "Criado Por",
+    "updated-on": "Atualizado Em",
+    "updated-by": "Atualizado Por",
+    "registration-partner-name": "Nome da Organização",
+    "registration-partner-type": "Nome da Política",
+    "contact-person": "ID de E-mail",
+    "contact-number": "Número de Contato",
+    "location-details": "Detalhes do Endereço",
+    "validationMessages": {
+      "partnerTypeCode": {
+        "required": "Nome da Política é obrigatório"
+      },
+      "name": {
+        "required": "Nome da Organização é obrigatório",
+        "max-length": "Comprimento máximo excedido (128)"
+      },
+      "addressLine1": {
+        "required": "Endereço é obrigatório",
+        "max-length": "Comprimento máximo excedido (256)"
+      }
+    },
+    "popupMessages": {
+      "create": {
+        "title": "Confirmação",
+        "message": [
+          "Você está prestes a criar um Centro de Registro em ",
+          ". Certifique-se de que todas as informações estão corretas. O ID do Centro será gerado após a confirmação"
+        ],
+        "yesBtnText": "Sim",
+        "noBtnText": "Não",
+        "mandatorySecondaryFields": "Você não preencheu os dados obrigatórios no idioma Secundário. O Centro de Registro será criado apenas no idioma Primário. Deseja continuar mesmo assim?"
+      },
+      "edit": {
+        "title": "Confirmação",
+        "message": "Você está prestes a atualizar um Centro de Registro. Certifique-se de que todas as informações estão corretas",
+        "yesBtnText": "Confirmar",
+        "noBtnText": "Cancelar",
+        "mandatorySecondaryFields": "Você não preencheu os dados obrigatórios no idioma Secundário. O Centro de Registro será criado apenas no idioma Primário. Deseja continuar mesmo assim?"
+      },
+      "update-success": {
+        "title": "Sucesso",
+        "message": "Parceiro atualizado com sucesso",
+        "btnTxt": "Ok"
+      },
+      "update-error": {
+        "title": "Erro",
+        "message": "Houve um problema ao atualizar o Parceiro. Por favor, tente novamente",
+        "btnTxt": "Ok"
+      },
+      "create-success": {
+        "title": "Sucesso",
+        "message": [
+          "Parceiro criado com sucesso com ID do Parceiro: ",
+          " e Status do Parceiro é: "
+        ],
+        "btnTxt": "Ok"
+      },
+      "create-error": {
+        "title": "Erro",
+        "message": "Houve um problema ao criar o Parceiro. Por favor, tente novamente",
+        "btnTxt": "Ok"
+      },
+      "navigation-popup": {
+        "title": "Confirmação",
+        "message": "Tem certeza de que deseja sair desta página? Quaisquer dados não salvos serão perdidos.",
+        "yesBtnTxt": "Sair",
+        "noBtnTxt": "Ficar"
+      },
+      "noData": {
+        "title": "Erro",
+        "message": "Nenhum Dado Encontrado",
+        "btnTxt": "Ok"
+      }
+    }
+  },
+  "misp": {
+    "header": "MISP",
+    "name": "Nome",
+    "id": "Id",
+    "isActive": "Status do MISP",
+    "contact_no": "Número de Telefone",
+    "status": "Status",
+    "address": "Endereço",
+    "misp-details": "Detalhes do MISP",
+    "created-on": "Criado Em",
+    "created-by": "Criado Por",
+    "updated-on": "Atualizado Em",
+    "updated-by": "Atualizado Por",
+    "email_id": "E-mail",
+    "edit": "Editar",
+    "create": "Criar",
+    "cancel": "Cancelar",
+    "language": "Inglês",
+    "keyboard-tooltip": "Clique para Teclado Virtual (Inglês)",
+    "update": "Atualizar",
+    "validationMessages": {
+      "name": {
+        "required": "Nome do MISP é obrigatório",
+        "max-length": "Comprimento máximo excedido (128)"
+      },
+      "address": {
+        "required": "Endereço do MISP é obrigatório",
+        "max-length": "Comprimento máximo excedido (128)"
+      },
+      "phoneNo": {
+        "required": "Número de telefone do MISP é obrigatório"
+      },
+      "email": {
+        "required": "E-mail do MISP é obrigatório"
+      }
+    },
+    "popupMessages": {
+      "create": {
+        "title": "Confirmação",
+        "message": [
+          "Você está prestes a criar um MISP em ",
+          ". Certifique-se de que todas as informações estão corretas. O ID do Centro será gerado após a confirmação"
+        ],
+        "yesBtnText": "Sim",
+        "noBtnText": "Não",
+        "mandatorySecondaryFields": "Você não preencheu os dados obrigatórios no idioma Secundário. O MISP será criado apenas no idioma Primário. Deseja continuar mesmo assim?"
+      },
+      "edit": {
+        "title": "Confirmação",
+        "message": "Você está prestes a atualizar um MISP. Certifique-se de que todas as informações estão corretas",
+        "yesBtnText": "Confirmar",
+        "noBtnText": "Cancelar",
+        "mandatorySecondaryFields": "Você não preencheu os dados obrigatórios no idioma Secundário. O MISP será criado apenas no idioma Primário. Deseja continuar mesmo assim?"
+      },
+      "update-success": {
+        "title": "Sucesso",
+        "message": "MISP atualizado com sucesso",
+        "btnTxt": "Ok"
+      },
+      "update-error": {
+        "title": "Erro",
+        "message": "Houve um problema ao atualizar o MISP. Por favor, tente novamente",
+        "btnTxt": "Ok"
+      },
+      "create-success": {
+        "title": "Sucesso",
+        "message": ["MISP criado com sucesso."],
+        "btnTxt": "Ok"
+      },
+      "create-error": {
+        "title": "Erro",
+        "message": "Houve um problema ao criar o MISP. Por favor, tente novamente",
+        "btnTxt": "Ok"
+      },
+      "navigation-popup": {
+        "title": "Confirmação",
+        "message": "Tem certeza de que deseja sair desta página? Quaisquer dados não salvos serão perdidos.",
+        "yesBtnTxt": "Sair",
+        "noBtnTxt": "Ficar"
+      },
+      "noData": {
+        "title": "Erro",
+        "message": "Nenhum Dado Encontrado",
+        "btnTxt": "Ok"
+      },
+      "lunchTimeValidation": {
+        "title": "Erro",
+        "message": "Por favor, selecione os horários do centro antes de selecionar os horários de almoço",
+        "btnTxt": "Ok"
+      }
+    }
+  },
+  "validationMessages": {
+    "required": "Por favor, preencha os campos 'Até' e 'De' para filtrar por intervalo de datas",
+    "range": "A data 'Até' não pode ser anterior à data 'De'",
+    "invalid": "Por favor, selecione um valor válido para a Data"
+  },
+  "actionMessages": {
+    "decommission": {
+      "success-message": ["", " aprovado com sucesso"],
+      "success-title": "Sucesso",
+      "error-message": "Não é possível aprovar o MISP. O MISP está inativo no momento",
+      "error-title": "Erro",
+      "btnTxt": "Ok",
+      "yesBtnTxt": "Confirmar",
+      "noBtnTxt": "Cancelar",
+      "confirmation-message": [
+        "Deseja Aprovar o MISP ",
+        " ? \n Você não poderá desfazer esta ação após clicar em Confirmar."
+      ],
+      "confirmation-title": "Confirmação"
+    },
+    "activate": {
+      "success-message": ["", " Ativado com Sucesso"],
+      "success-title": "Sucesso",
+      "error-message": "Não foi possível Ativar",
+      "error-title": "Erro",
+      "btnTxt": "Ok",
+      "yesBtnTxt": "Sim",
+      "noBtnTxt": "Não",
+      "confirmation-message": [
+        "Deseja Ativar o ",
+        "? \n Você pode Desativá-lo depois se desejar. Até lá, ele será definido como Ativo"
+      ],
+      "confirmation-title": "Confirmação"
+    },
+    "deactivate": {
+      "success-message": ["", " Desativado com Sucesso"],
+      "success-title": "Sucesso",
+      "error-message": "Não foi possível Desativar o MISP",
+      "error-title": "Erro",
+      "btnTxt": "Ok",
+      "yesBtnTxt": "Sim",
+      "noBtnTxt": "Não",
+      "confirmation-message": [
+        "Deseja Desativar o ",
+        " ? \n Você pode Ativá-lo depois se desejar. Até lá, ele será definido como Inativo"
+      ],
+      "confirmation-title": "Confirmação"
+    }
+  },
+  "policy": {
+    "header": "Política",
+    "name": "Nome",
+    "desc": "Descrição",
+    "authPolicies": "Tipos de Autenticação Permitidos",
+    "allowedKycAttributes": "Atributos KYC Permitidos",
+    "id": "Id",
+    "isActive": "Status",
+    "policy-details": "Detalhes da Política",
+    "created-on": "Criado Em",
+    "created-by": "Criado Por",
+    "updated-on": "Atualizado Em",
+    "updated-by": "Atualizado Por",
+    "edit": "Editar",
+    "create": "Criar",
+    "cancel": "Cancelar",
+    "language": "Inglês",
+    "keyboard-tooltip": "Clique para Teclado Virtual (Inglês)",
+    "update": "Atualizar",
+    "validationMessages": {
+      "name": {
+        "required": "Nome da Política é obrigatório",
+        "max-length": "Comprimento máximo excedido (128)"
+      },
+      "desc": {
+        "required": "Descrição da Política é obrigatória",
+        "max-length": "Comprimento máximo excedido (128)"
+      }
+    },
+    "popupMessages": {
+      "create": {
+        "title": "Confirmação",
+        "message": [
+          "Você está prestes a criar uma Política em ",
+          ". Certifique-se de que todas as informações estão corretas. O ID do Centro será gerado após a confirmação"
+        ],
+        "yesBtnText": "Sim",
+        "noBtnText": "Não",
+        "mandatorySecondaryFields": "Você não preencheu os dados obrigatórios no idioma Secundário. A Política será criada apenas no idioma Primário. Deseja continuar mesmo assim?"
+      },
+      "edit": {
+        "title": "Confirmação",
+        "message": "Você está prestes a atualizar uma Política. Certifique-se de que todas as informações estão corretas",
+        "yesBtnText": "Confirmar",
+        "noBtnText": "Cancelar",
+        "mandatorySecondaryFields": "Você não preencheu os dados obrigatórios no idioma Secundário. O MISP será criado apenas no idioma Primário. Deseja continuar mesmo assim?"
+      },
+      "update-success": {
+        "title": "Sucesso",
+        "message": "Política atualizada com sucesso",
+        "btnTxt": "Ok"
+      },
+      "update-error": {
+        "title": "Erro",
+        "message": "Houve um problema ao atualizar a política. Por favor, tente novamente",
+        "btnTxt": "Ok"
+      },
+      "create-success": {
+        "title": "Sucesso",
+        "message": ["Política criada com sucesso."],
+        "btnTxt": "Ok"
+      },
+      "create-error": {
+        "title": "Erro",
+        "message": "Houve um problema ao criar a política. Por favor, tente novamente",
+        "btnTxt": "Ok"
+      },
+      "navigation-popup": {
+        "title": "Confirmação",
+        "message": "Tem certeza de que deseja sair desta página? Quaisquer dados não salvos serão perdidos.",
+        "yesBtnTxt": "Sair",
+        "noBtnTxt": "Ficar"
+      },
+      "noData": {
+        "title": "Erro",
+        "message": "Nenhum Dado Encontrado",
+        "btnTxt": "Ok"
+      },
+      "lunchTimeValidation": {
+        "title": "Erro",
+        "message": "Por favor, selecione os horários do centro antes de selecionar os horários de almoço",
+        "btnTxt": "Ok"
+      }
+    }
+  },
+  "uploadcertificate": {
+    "title": "Carregar Certificado",
+    "CAtitle": "Carregar Certificado CA",
+    "partnerDomain": "Domínio do Parceiro",
+    "chooseFile": "Escolher Arquivo",
+    "uploadYourFile": "Carregue Seu Arquivo",
+    "button": "Carregar",
+    "cancel": "Cancelar"
+  },
+  "filters": {
+    "titleTxt": "Mapear Grupo de Políticas",
+    "footerButtons": {
+      "resetTxt": "Redefinir",
+      "cancelTxt": "Cancelar",
+      "applyTxt": "Salvar"
+    }
+  },
+  "filters": {
+    "titleTxt": "Adicionar Filtros",
+    "footerButtons": {
+      "resetTxt": "Redefinir",
+      "cancelTxt": "Cancelar",
+      "applyTxt": "Aplicar"
+    }
+  },
+  "isActive": {
+    "Active": "Ativo",
+    "InActive": "Inativo"
+  },
+  "genericerror": {
+    "fieldValidation": "Este campo é obrigatório",
+    "fieldNameValidation": " é obrigatório"
+  },
+  "serverError": {
+    "PMS_COR_001": "Parâmetro de Entrada Ausente",
+    "PMS_PRT_002": " Grupo de políticas não existe",
+    "PMS_PRT_010": " Tipo de Parceiro não existe",
+    "PMS_PRT_310": " Coluna inválida recebida: %s",
+    "PMS_PRT_313": " Valor de paginação inválido recebido pagestart:%d e pagefetch:%d",
+    "PMS_PRT_312": " Tipo de filtro está ausente",
+    "PMS_PRT_311": " Coluna está ausente na requisição",
+    "PMS_PRT_314": " Campo de ordenação ou tipo de ordenação ausente",
+    "PMS_PRT_315": " fromValue ou toValue inválido",
+    "PMS_PRT_356": " Paginação não pode ser nula",
+    "PMS_PRT_358": " Tipo de ordenação %s não é suportado",
+    "PMS_PRT_359": " Erro ocorrido durante a ordenação",
+    "PMS_PRT_357": " Campo de ordenação inválido %s",
+    "KER_PRT_390": " Valor de filtro inválido",
+    "PMS_PRT_001": "  Um Parceiro já está registrado com o mesmo Nome",
+    "PMS_PRT_051": " Um Parceiro já está registrado com o mesmo Id",
+    "PMS_PRT_052": "O comprimento máximo do ID do Parceiro deve ser ",
+    "PMS_ATH_053": " Exceção de IO ocorrida ao passar a requisição de paginação",
+    "PMS_ATH_054": " Usuário não encontrado",
+    "PMS_ATH_500": " Ocorreu um erro no servidor. Por favor, verifique os logs ",
+    "PMS_PRT_061": "Mapeamento de política de parceiro não existe.",
+    "PMS_PRT_062": "A solicitação de chave de API do parceiro já foi aprovada. Não é possível adicionar extratores agora.",
+    "PMS_PRT_063": "Extratores biométricos podem ser adicionados apenas para:",
+    "PMS_PRT_064": "Nenhum detalhe encontrado",
+    "PMS_PRT_070": "Mapeamento de credenciais permitido apenas para:",
+    "PMS_PRT_071": "Erro ocorrido ao analisar a string de política para objeto JSON",
+    "PMS_PRT_072": "O tipo de credencial fornecido não é permitido. Tipos de credenciais permitidos: ",
+    "PMS_PRT_073": "Política não existe.",
+    "PMS_PRT_074": "Usuário já existe com o mesmo e-mail",
+    "PMS_PRT_005": "Parceiro não existe",
+    "PMS_PRT_006": "Nenhuma solicitação de chave de API existe",
+    "PMS_PRT_105": "Chave de API do Parceiro não foi criada",
+    "PMS_PRT_011": " E-mail já existe.",
+    "PMS_PRT_012": " ID de e-mail inválido.",
+    "PMS_PRT_013": " Número de celular inválido. O comprimento deve ser menor que.",
+    "PMS_ATH_401": "Falha na Autenticação",
+    "PMS_PRT_106": "O status do APIKeyReqID está Em_andamento",
+    "PMS_KKS_001": " API não acessível  ",
+    "PMS_PRT_107": "A resposta da API é nula",
+    "PMS_PRT_500": "Não é possível processar a requisição.",
+    "PMS_PMP_016": "Parceiro não está ativo.",
+    "PMS_PRT_098": "A política fornecida dentro do grupo de políticas do parceiro não existe.",
+    "PMS_PMP_019": "Política não está ativa.",
+    "PMS_PMP_023": "Grupo de políticas não está ativo.",
+    "PMS_DTS_001": "  Resposta do DataShare é nula",
+    "PMS_PRT_045": "Erro ocorrido ao analisar dados do certificado P7B",
+    "PMS_PRT_046": "Erro ocorrido ao extrair o certificado folha.",
+    "PMS_PRT_047": "Parceiro não está mapeado ao grupo de políticas",
+    "PMS_PRT_048": "Mapeamento de grupo de políticas não é necessário para o parceiro fornecido",
+    "PMS_PRT_049": "Mapeamento de grupo de políticas já existe para o parceiro fornecido.",
+    "PMS_PRT_050": "O grupo de políticas não pode ser atualizado para parceiro aprovado",
+    "PMS_PRT_054": "Grupo de políticas não mapeado para o parceiro fornecido",
+    "PMS_PRT_055": "Usuário não autorizado.",
+    "PMS_PM_034": " Solicitação de política já aprovada.",
+    "PMS_PM_035": " Solicitação de política já rejeitada.",
+    "PMS_PM_045": " O status deve ser Aprovado ou Rejeitado",
+    "PMS_PM_051": " Extratores não estão presentes. Por favor, adicione extratores.",
+    "PMS_PM_058": " O status deve ser Ativo ou De_Ativo",
+    "PMS_PMP_010": "A política não pertence ao Grupo de Políticas do Gerente de Parceiros",
+    "PMS_PMP_015": "Nenhuma solicitação de chave de API do parceiro para o Grupo de Políticas",
+    "PMS_PMP_007": "Chave de API do parceiro não existe",
+    "PMS_PMP_011": "Chave de API do parceiro não existe",
+    "PMS_PMP_009": " Para o parceiro e apikey fornecidos, o mapeamento não existe.",
+    "PMS_PMP_013": "Parceiro não existe",
+    "PMS_PMP_005": "ID do Parceiro não existe",
+    "PMS_PMP_017": "Parceiro não está mapeado a nenhuma política.",
+    "PMS_PMP_020": "Chave de licença MISP não existe.",
+    "PMS_PMP_021": "Chave de licença MISP está expirada.",
+    "PMS_PMP_022": "Política não existe.",
+    "PMS_PMP_024": "Arquivo de política está corrompido.",
+    "PMS_PMP_025": "Chave de licença do MISP está bloqueada",
+    "PMS_PMP_50": "O mapeamento de apikey, parceiro e política fornecidos não existe.",
+    "PMS_PMP_51": "A política fornecida não pertence ao grupo de políticas do parceiro",
+    "PMS_PMP_052": "Certificado do Parceiro não disponível",
+    "PMS_PMP_014": "Política não existe",
+    "PMS_PMS_022": "A chave de API do Parceiro fornecida não está ativa.",
+    "PMS_PMP_018": "Política expirada.",
+    "PMS_PRT_108": "Certificado não foi carregado para o parceiro fornecido. Não é possível ativá-lo.",
+    "PMS_AUT_002": "ID do provedor de dispositivo não encontrado na lista de parceiros",
+    "PMS_AUT_003": "Detalhes do Dispositivo já existem",
+    "PMS_AUT_004": "Requisição duplicada recebida",
+    "PMS_AUT_005": "Detalhe do dispositivo para o id %s não existe",
+    "PMS_AUT_025": "ApprovalStatus deve ser Activate / De_activate;",
+    "PMP_AUT_030": "Provedor FTP não existe.",
+    "PMP_AUT_031": "ID do chip FTP não existe.",
+    "PMP_AUT_032": "O provedor, fabricante e modelo fornecidos já existem.",
+    "PMP_AUT_033": "Certificado não foi carregado.",
+    "PMP_AUT_034": "ID de detalhe do chip FTP e ID do provedor FTP não mapeados. ",
+    "PMP_AUT_037": "Os detalhes do chip FTP fornecidos já estão registrados.;",
+    "PMS_AUT_007": "Interface Biométrica Segura não encontrada para o id %s",
+    "PMS_AUT_026": "ApprovalStatus deve ser Activate / De_activate",
+    "PMS_AUT_506": "Forneça detalhes do dispositivo do mesmo provedor.",
+    "PMS_AUT_507": "A Data de Expiração deve ser maior que a Data de Criação",
+    "PMS_AUT_508": "A Data de Expiração deve ser maior ou igual à Data de Hoje.;",
+    "PMS_POL_002": "Credenciais do Gerente de Políticas não correspondem",
+    "PMS_POL_004": "Nome da Política já existe no Grupo de Políticas. Nome: ",
+    "PMS_POL_005": "Atributo KYC não suportado no Arquivo de Política",
+    "PMS_POL_006": "Tipo de Autenticação não suportado no Arquivo de Política",
+    "PMS_POL_007": "Atributo eKYC ausente no arquivo de política",
+    "PMS_POL_008": "ID da Política não existe",
+    "PMS_POL_009": "Política de autenticação já existe com o nome: ",
+    "PMS_COR_002": "Parâmetro de Entrada Inválido _ ",
+    "PMS_COR_003": "Não foi possível processar a requisição",
+    "PMS_POL_010": " Políticas de Autenticação não estão definidas para a política",
+    "PMS_POL_013": "Nenhuma política disponível para a PartnerAPIKey fornecida",
+    "PMS_POL_014": "Grupo de políticas já existe com o nome: ",
+    "PMS_POL_015": "Grupo de políticas e política não estão mapeados.",
+    "PMS_POL_016": "ID do Grupo de Políticas não existe",
+    "PMS_POL_017": "Nenhuma política disponível para o parceiro fornecido",
+    "PMS_POL_018": "Parceiro e política fornecidos não estão mapeados.",
+    "PMS_POL_019": "Nome do grupo de políticas não existe",
+    "PMS_POL_020": "Não é possível publicar a política já publicada",
+    "PMS_POL_021": "Tipos de autenticação permitidos não são necessários para o tipo de política ",
+    "PMS_POL_022": "O tipo de token de autenticação fornecido não é permitido",
+    "PMS_POL_023": "O tipo de política fornecido não é permitido ",
+    "PMS_POL_045": "O Status da Política deve ser Ativo ou De_ativo.",
+    "PMS_POL_046": "Atributos de compartilhamento de dados não são necessários para o tipo de política fornecido ",
+    "PMS_POL_047": "Atributos compartilháveis não são necessários para o tipo de política fornecido ",
+    "PMS_POL_048": "Atributos KYC permitidos não são necessários para o tipo de política fornecido ",
+    "PMS_POL_050": "A versão fornecida não está disponível. Versões permitidas são: ",
+    "PMS_POL_051": "O esquema da política e a política não correspondem",
+    "PMS_POL_052": "Erro ocorrido ao analisar a string de política para objeto JSON",
+    "PMS_POL_053": "Grupo de políticas não está ativo.",
+    "PMS_POL_054": "Não é possível ativar uma política não publicada.",
+    "PMS_POL_055": "A política publicada não pode ser atualizada.",
+    "PMS_POL_056": "Existem políticas ativas no grupo de políticas.",
+    "PMS_POL_057": "Existe uma apiKey ativa na política.",
+    "PMS_POL_058": "O status não pode ser alterado para uma política publicada.;"
+  }
+}

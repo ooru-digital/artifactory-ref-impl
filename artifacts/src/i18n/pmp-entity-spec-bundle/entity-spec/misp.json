@@ -1,13 +1,18 @@
 {
-	"auditEventIds": ["ADM-027", "ADM-049"],
-	"actionButtons": [{
+	"auditEventIds": [
+		"ADM-027",
+		"ADM-049"
+	],
+	"actionButtons": [
+		{
 			"buttonName": {
 				"eng": "Activate",
 				"ara": "تفعيل",
 				"fra": "Activer",
 				"hin": "सक्रिय",
 				"kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
-				"tam": "செயல்படுத்த"
+				"tam": "செயல்படுத்த",
+				"por": "Ativar"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -22,7 +27,8 @@
 				"fra": "Désactiver",
 				"hin": "निष्क्रिय करें",
 				"kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
-				"tam": "செயலிழக்கச் செய்"
+				"tam": "செயலிழக்கச் செய்",
+				"por": "Desativar"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -37,7 +43,8 @@
 				"fra": "Approuver",
 				"hin": "मंज़ूरी देना",
 				"kan": "ಅನುಮೋದಿಸಿ",
-				"tam": "ஒப்புதல்"
+				"tam": "ஒப்புதல்",
+				"por": "Aprovar"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -52,7 +59,8 @@
 				"fra": "Éditer",
 				"hin": "संपादन करना",
 				"kan": "ತಿದ್ದು",
-				"tam": "தொகு"
+				"tam": "தொகு",
+				"por": "Editar"
 			},
 			"actionURL": "",
 			"redirectURL": "/pmp/resources/misp/single-view/$id",
@@ -67,7 +75,8 @@
 				"fra": "Créer un MISP",
 				"hin": "MISP बनाएं",
 				"kan": "MISP ರಚಿಸಿ",
-				"tam": "MISP ஐ உருவாக்கவும்"
+				"tam": "MISP ஐ உருவாக்கவும்",
+				"por": "Criar MISP"
 			},
 			"imagePath": "assets/images/add-icon.png",
 			"actionListType": "redirect",
@@ -77,7 +86,8 @@
 			"validations": ""
 		}
 	],
-	"mispList": [{
+	"mispList": [
+		{
 			"name": "name",
 			"showInListView": "true",
 			"label": {
@@ -86,7 +96,8 @@
 				"fra": "Nom",
 				"hin": "नाम",
 				"kan": "ಹೆಸರು",
-				"tam": "பெயர்"
+				"tam": "பெயர்",
+				"por": "Nome"
 			},
 			"sortOrder": "3",
 			"showAsLink": "",
@@ -102,7 +113,8 @@
 				"fra": "Adresse",
 				"hin": "पता",
 				"kan": "ವಿಳಾಸ",
-				"tam": "முகவரி"
+				"tam": "முகவரி",
+				"por": "Endereço"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -118,7 +130,8 @@
 				"fra": "Pas de téléphone",
 				"hin": "फोन नंबर",
 				"kan": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
-				"tam": "தொலைபேசி எண்"
+				"tam": "தொலைபேசி எண்",
+				"por": "Tel. Nº"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -134,7 +147,8 @@
 				"fra": "E-mail",
 				"hin": "ईमेल",
 				"kan": "ಇಮೇಲ್",
-				"tam": "மின்னஞ்சல்"
+				"tam": "மின்னஞ்சல்",
+				"por": "E-mail"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -150,7 +164,8 @@
 				"fra": "C'est actif",
 				"hin": "सक्रिय है",
 				"kan": "ಸಕ್ರಿಯವಾಗಿದೆ",
-				"tam": "செயலில் உள்ளது"
+				"tam": "செயலில் உள்ளது",
+				"por": "Está Ativo"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -166,7 +181,8 @@
 				"fra": "Statut",
 				"hin": "दर्जा",
 				"kan": "ಸ್ಥಿತಿ",
-				"tam": "நிலை"
+				"tam": "நிலை",
+				"por": "Status"
 			},
 			"sortOrder": "3",
 			"showAsLink": "",
@@ -177,9 +193,16 @@
 	"paginator": {
 		"totalEntries": null,
 		"pageSize": "10",
-		"pageSizeList": [10, 20, 30, 40, 50]
+		"pageSizeList": [
+			10,
+			20,
+			30,
+			40,
+			50
+		]
 	},
-	"filterColumns": [{
+	"filterColumns": [
+		{
 			"filtername": "name",
 			"filterlabel": "Name",
 			"filterType": "equals",
